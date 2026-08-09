@@ -38,7 +38,7 @@ bool ChromaEncoder::updateSwitch() {
         if ((millis() - lastDebounceTime) > debounceDelay) {
             isPressed = currentState;
             lastDebounceTime = millis();
-            is(isPressed) {
+            if (isPressed) {
                 return true;
             }
         }

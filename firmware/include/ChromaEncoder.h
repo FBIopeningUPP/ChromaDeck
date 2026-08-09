@@ -1,5 +1,6 @@
 #pragma once
 #include <Arduino.h>
+#define ENCODER_DO_NOT_USE_INTERRUPTS
 #include <Encoder.h>
 
 class ChromaEncoder {

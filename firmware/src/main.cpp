@@ -1,9 +1,13 @@
 #include <Arduino.h>
-#include <MIDIUSB.h>
+#include <Adafruit_TinyUSB.h>
+#include <MIDI.h>
 
-#include "ChromaEncoder.h"
 #include "ChromaKey.h"
 #include "ChromaFader.h"
+#include "ChromaEncoder.h"
+
+Adafruit_USBD_MIDI usb_midi;
+MIDI_CREATE_INSTANCE(Adafruit_USBD_MIDI, usb_midi, MIDI);
 
 ChromaKey keys[8] = {
     ChromaKey(PC0, 36), ChromaKey(PC1, 37), ChromaKey(PC2, 38), ChromaKey(PC3, 39),
@@ -23,40 +27,34 @@ ChromaEncoder encoders[6] = {
     ChromaEncoder(PC8, PC9, PC10, 10)
 };
 
-void sendNoteOn(byte channel, byte pitch, byte velocity) {
-    midiEventPacket_t noteOn = {0x09, 0x90 | channel, pitch, velocity};
-    MidiUSB.sendMIDI(noteOn);
-    MidiUSB.flush();
-}
-
-void sendControlChange(byte channel, byte control, byte value) {
-    midiEventPacket_t event = {0x0B, 0xB0 | channel, control, value};
-    MidiUSB.sendMIDI(event);
-    MidiUSB.flush();
-}
-
 void setup() {
+    usb_midi.begin();
+    MIDI.begin(MIDI_CHANNEL_OMNI);
+
     for (int i = 0; i < 8; i++) keys[i].begin();
     for (int i = 0; i < 4; i++) faders[i].begin();
     for (int i = 0; i < 6; i++) encoders[i].begin();
 }
+
 void loop() {
     for (int i = 0; i < 8; i++) {
         if (keys[i].update()) {
-            sendNoteOn(0, keys[i].getNote(), 127);
+            MIDI.sendNoteOn(keys[i].getNote(), 127, 1);
         }
     }
+
     for (int i = 0; i < 4; i++) {
         if (faders[i].update()) {
-            sendControlChange(0, faders[i].getCC(), faders[i].getValue());
+            MIDI.sendControlChange(faders[i].getCC(), faders[i].getValue(), 1);
         }
     }
+
     for (int i = 0; i < 6; i++) {
         if (encoders[i].updateTurn()) {
-            sendControlChange(0, encoders[i].getCC(), encoders[i].getValue());
+            MIDI.sendControlChange(encoders[i].getCC(), encoders[i].getValue(), 1);
         }
         if (encoders[i].updateSwitch()) {
-            sendNoteOn(0, 50 + 1, 127);
+            MIDI.sendNoteOn(50 + i, 127, 1);
         }
     }
 }
