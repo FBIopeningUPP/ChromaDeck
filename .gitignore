@@ -1,0 +1,26 @@
+# PlatformIO
+.pio/
+.vscode/
+*.bin
+*.elf
+*.hex
+
+# KiCad
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.sch-bak
+*-backups/
+_autosave-*
+*.lck
+fp-info-cache
+
+# Tauri / Node (for later)
+node_modules/
+dist/
+target/
+src-tauri/target/
+
+# OS Files
+.DS_Store
+Thumbs.db
