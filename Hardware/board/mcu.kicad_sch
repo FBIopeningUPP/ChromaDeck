@@ -4068,6 +4068,46 @@
 		)
 		(uuid "fb4dd544-647b-4303-800d-b40fb0d1884b")
 	)
+	(label "K8"
+		(at 111.125 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "00f1fbc6-fb71-4266-8fcd-ac10931805ed")
+	)
+	(label "K2"
+		(at 111.125 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0299b817-9bd3-46e6-b18c-5135b4c68133")
+	)
+	(label "E4-A"
+		(at 60.325 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "030db243-eaa8-4634-9e04-e31d5a60087d")
+	)
+	(label "E2-A"
+		(at 111.125 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "05c81f14-a58c-404f-a5cd-936564a8dfb2")
+	)
 	(label "3.3V_MCU"
 		(at 192.405 105.41 180)
 		(effects
@@ -4078,6 +4118,26 @@
 		)
 		(uuid "07dd7abe-cd4d-4f98-b6d3-63dc4480f2a4")
 	)
+	(label "E2_LED"
+		(at 60.325 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "09774cd9-2f31-452f-a83a-359667342c54")
+	)
+	(label "E6-A"
+		(at 111.125 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d6e5bdf-4ab8-4710-ac54-9e437eb209e0")
+	)
 	(label "LCS_RS"
 		(at 60.325 129.54 180)
 		(effects
@@ -4087,6 +4147,36 @@
 			(justify right bottom)
 		)
 		(uuid "0edb1e35-9090-4ba8-a7e4-3a5669974718")
+	)
+	(label "E6-S"
+		(at 111.125 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "11746b68-69f1-4064-9917-fb5a76afc039")
+	)
+	(label "K6"
+		(at 111.125 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "11a60128-8271-433c-88e4-6913db9935e3")
+	)
+	(label "E3-A"
+		(at 111.125 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "123b8dcd-3a16-4e33-9e7a-dba5a3249bb4")
 	)
 	(label "D6"
 		(at 60.325 81.28 180)
@@ -4138,6 +4228,16 @@
 		)
 		(uuid "2b849ca9-a8d4-4a9d-a73a-8b7036ed10f9")
 	)
+	(label "K1"
+		(at 111.125 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e30c66b-ac33-4922-9f38-3d7d092818fb")
+	)
 	(label "D13"
 		(at 60.325 121.92 180)
 		(effects
@@ -4178,6 +4278,36 @@
 		)
 		(uuid "40ee6c69-c239-4cfa-a8e2-d55f92e0d757")
 	)
+	(label "E4_LED"
+		(at 60.325 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "45562567-e5c5-4fd1-b579-342e710a4e72")
+	)
+	(label "E4-S"
+		(at 60.325 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4955183a-81f0-48f7-8e9e-68a9d193102a")
+	)
+	(label "K3"
+		(at 111.125 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ebe855e-182e-4642-a202-fb6c3ce44910")
+	)
 	(label "D14"
 		(at 60.325 124.46 180)
 		(effects
@@ -4198,6 +4328,16 @@
 		)
 		(uuid "5afcf5c8-ea41-4594-bf32-cd5d4e075550")
 	)
+	(label "E5_LED"
+		(at 60.325 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5c41b31e-13e8-43e2-a2b8-092fc42b3038")
+	)
 	(label "D2"
 		(at 60.325 101.6 180)
 		(effects
@@ -4207,6 +4347,36 @@
 			(justify right bottom)
 		)
 		(uuid "5e65389a-bcfd-4e9c-a18a-f6248cf2a072")
+	)
+	(label "F4_LED"
+		(at 111.125 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "62ac84c3-a4d6-4261-bc64-27375de3ef60")
+	)
+	(label "K4"
+		(at 111.125 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "656e763f-7081-4e52-8955-7c1993bfc0f0")
+	)
+	(label "F3_LED"
+		(at 111.125 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6778900e-19d3-4acb-9951-6c8a04c354ea")
 	)
 	(label "3.3V_MCU"
 		(at 95.885 24.13 0)
@@ -4218,6 +4388,36 @@
 		)
 		(uuid "6b1be150-b12d-4534-b591-ef574184227e")
 	)
+	(label "E1-S"
+		(at 111.125 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70565f81-f756-45a0-a540-02182ec877a3")
+	)
+	(label "E4-B"
+		(at 60.325 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "72e0e8a9-8263-4595-b6dc-c4f433274bcd")
+	)
+	(label "E5-S"
+		(at 60.325 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "73322c26-2e9f-471c-bea3-cd2be345db87")
+	)
 	(label "3.3V_MCU"
 		(at 175.26 39.37 180)
 		(effects
@@ -4227,6 +4427,56 @@
 			(justify right bottom)
 		)
 		(uuid "748b99b1-b172-40c5-b0b0-77a1b7fbe83a")
+	)
+	(label "E1-B"
+		(at 111.125 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "81866928-9dcf-433b-b1fb-597902436c39")
+	)
+	(label "E5-B"
+		(at 60.325 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "83a38669-bf4d-4ac2-8b11-c6b773d69739")
+	)
+	(label "F2_LED"
+		(at 111.125 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88731024-c8f3-4e6b-af16-21e16952d091")
+	)
+	(label "E6_LED"
+		(at 111.125 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88f8a954-c08c-4a06-8992-d3e3449c28bc")
+	)
+	(label "E3-B"
+		(at 111.125 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e336c65-6b7d-4c12-a929-3b62fa87e681")
 	)
 	(label "LCS_RD"
 		(at 60.325 111.76 180)
@@ -4248,6 +4498,16 @@
 		)
 		(uuid "a0c7c25c-7b23-4483-850f-83386f01af6e")
 	)
+	(label "E1_LED"
+		(at 60.325 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a3660145-00c2-4c59-9697-93b723c900bc")
+	)
 	(label "LCS_RST"
 		(at 111.125 134.62 0)
 		(effects
@@ -4268,6 +4528,26 @@
 		)
 		(uuid "a46d1635-b5b2-4572-957e-e6e50e8d006b")
 	)
+	(label "E2-B"
+		(at 111.125 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac173f8c-d38c-45d4-85b5-db7914689d0e")
+	)
+	(label "F1_LED"
+		(at 111.125 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b17be039-b3eb-4846-9e7b-e9946626bbe3")
+	)
 	(label "BOOT0"
 		(at 210.82 105.41 0)
 		(effects
@@ -4277,6 +4557,26 @@
 			(justify left bottom)
 		)
 		(uuid "b5d472d4-575f-44ae-9203-f004403708f3")
+	)
+	(label "K5"
+		(at 111.125 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2a2e342-0e8a-4c20-b9fe-1ac9a063dcd4")
+	)
+	(label "E3-S"
+		(at 111.125 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5fdafa0-ef05-4a87-b614-fcb62c81a1c6")
 	)
 	(label "D9"
 		(at 60.325 88.9 180)
@@ -4308,6 +4608,26 @@
 		)
 		(uuid "c883981b-58de-4330-8839-26554d3ea137")
 	)
+	(label "E2-S"
+		(at 111.125 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca5e1dcd-2b79-4c93-a234-cda5c070a1d0")
+	)
+	(label "E3_LED"
+		(at 60.325 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cca25131-eeda-43c5-8065-67f313b414e7")
+	)
 	(label "D8"
 		(at 60.325 86.36 180)
 		(effects
@@ -4317,6 +4637,16 @@
 			(justify right bottom)
 		)
 		(uuid "ce9bf34f-208a-4c9d-becf-a84431138b9b")
+	)
+	(label "M_LED"
+		(at 111.125 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2dea64e-bdb6-4e69-a3fd-2f8cd8905ef6")
 	)
 	(label "D-"
 		(at 111.125 63.5 0)
@@ -4337,6 +4667,16 @@
 			(justify left bottom)
 		)
 		(uuid "e8f49495-b802-41d2-a024-36d200758d55")
+	)
+	(label "E6-B"
+		(at 111.125 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9acec49-6fe4-4797-903d-3560460713d8")
 	)
 	(label "D0"
 		(at 60.325 137.16 180)
@@ -4367,6 +4707,36 @@
 			(justify right bottom)
 		)
 		(uuid "f3bb39b2-14aa-46db-88a4-f0e2405b38a9")
+	)
+	(label "E5-A"
+		(at 60.325 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f6cea89b-64f8-4a6d-8c46-ea4164ff9b9f")
+	)
+	(label "E1-A"
+		(at 111.125 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f84ad058-f465-430e-b1ff-a37d9f242d05")
+	)
+	(label "K7"
+		(at 111.125 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb96e352-801d-4c47-90a4-ad29db0deb1c")
 	)
 	(symbol
 		(lib_id "PCM_fab:C_0603")

@@ -52,6 +52,52 @@
 		)
 	)
 	(sheet
+		(at 105.41 19.05)
+		(size 21.59 14.605)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "58fefd48-2eee-4fcb-b0ad-9a73a5e36ec8")
+		(property "Sheetname" "button-encoder"
+			(at 105.41 18.3384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "button-encoder.kicad_sch"
+			(at 105.41 34.2396 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "board"
+				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 50.8 19.05)
 		(size 19.05 12.7)
 		(exclude_from_sim no)
@@ -93,6 +139,98 @@
 			(project "board"
 				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 74.93 18.415)
+		(size 23.495 14.605)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a518d5fa-3e63-4101-a721-9b8ba5303779")
+		(property "Sheetname" "display"
+			(at 74.93 17.7034 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "display.kicad_sch"
+			(at 74.93 33.6046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "board"
+				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 142.24 19.05)
+		(size 24.13 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c5037779-7431-4368-bace-29a827656b82")
+		(property "Sheetname" "led"
+			(at 142.24 18.3384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 142.24 33.6046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "board"
+				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed"
+					(page "6")
 				)
 			)
 		)
