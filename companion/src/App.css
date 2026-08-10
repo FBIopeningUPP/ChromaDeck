@@ -170,3 +170,88 @@ body {
   padding: 4px 8px;
   border-radius: 2px;
 }
+
+.hardware-section {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  height: 100%;
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+.knobs-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 12px;
+  padding-top: 8px;
+}
+
+.knob-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--bg-base);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 16px 0;
+}
+
+.knob-outer {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #111;
+  border: 1px solid var(--border-color);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.knob-inner {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #2a2a2a;
+  border: 1px solid #444;
+  position: relative;
+  transition: transform 0.1s;
+}
+
+.knob-indicator {
+  position: absolute;
+  top: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 8px;
+  background-color: var(--text-main);
+}
+
+.buttons-grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 8px;
+}
+
+.push-button {
+  height: 32px;
+  background-color: var(--bg-element);
+  border: 1px solid var(--border-color);
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  color: var(--text-dim);
+}
+
+.push-button:active, .push-button.active {
+  background-color: var(--accent);
+  color: #000;
+  border-color: var(--accent);
+}

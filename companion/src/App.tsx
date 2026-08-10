@@ -1,10 +1,56 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { invoke } from "@tauri-apps/api/core";
 import "./App.css";
 
 function App() {
-  const [faderLevels] = useState([85, 42, 18, 100]);
+  const [faderLevels, setFaderLevels] = useState([85, 42, 18, 100]);
+  const [knobLevels] = useState([0, 25, 50, 75, 100, 127]);
+  const [buttonStates, setButtonStates] = useState(Array(8).fill(false));
   const [deviceName, setDeviceName] = useState("SCANNING...");
+  
+  const trackRefs = useRef<(HTMLDivElement | null)[]>([]);
+
+  const handleDrag = (index: number, e: React.PointerEvent<HTMLDivElement>) => {
+    const track = trackRefs.current[index];
+    if (!track) return;
+    
+    (e.target as HTMLElement).setPointerCapture(e.pointerId);
+
+    const updateLevel = (clientY: number) => {
+      const rect = track.getBoundingClientRect();
+      let newLevel = ((rect.bottom - clientY) / rect.height) * 100;
+      newLevel = Math.max(0, Math.min(100, Math.round(newLevel)));
+      
+      setFaderLevels(prev => {
+        const next = [...prev];
+        next[index] = newLevel;
+        return next;
+      });
+    };
+
+    updateLevel(e.clientY);
+
+    const onPointerMove = (moveEvent: PointerEvent) => {
+      updateLevel(moveEvent.clientY);
+    };
+
+    const onPointerUp = (upEvent: PointerEvent) => {
+      window.removeEventListener("pointermove", onPointerMove);
+      window.removeEventListener("pointerup", onPointerUp);
+      (e.target as HTMLElement).releasePointerCapture(upEvent.pointerId);
+    };
+
+    window.addEventListener("pointermove", onPointerMove);
+    window.addEventListener("pointerup", onPointerUp);
+  };
+
+  const toggleButton = (index: number) => {
+    setButtonStates(prev => {
+      const next = [...prev];
+      next[index] = !next[index];
+      return next;
+    });
+  };
 
   useEffect(() => {
     async function scanMidiPorts() {
@@ -16,7 +62,7 @@ function App() {
           setDeviceName("NO HARDWARE DETECTED");
         }
       } catch (error) {
-        console.error("Failed to feth midi ports", error);
+        console.error(error);
       }
     }
 
@@ -39,24 +85,60 @@ function App() {
       <div className="panel main-content">
         <div className="header">
           <h2>Main Console</h2>
-          <div className="status-badge" style={{color: deviceName == "NO HARDWARE DETECTED" ? '#ff3333' : 'var(--accent-secondary)' }}>
+          <div className="status-badge" style={{color: deviceName === "NO HARDWARE DETECTED" ? '#ff3333' : 'var(--accent-secondary)' }}>
             <div className="status-dot" style={{ backgroundColor: deviceName === "NO HARDWARE DETECTED" ? '#ff3333' : 'var(--accent-secondary)' }}></div>
             {deviceName}
           </div>
         </div>
 
-        <div className="faders-grid">
-          {faderLevels.map((level, i) => (
-            <div key={i} className="channel-strip">
-              <div className="channel-label">CH 0{i + 1}</div>
-              
-              <div className="fader-track">
-                <div className="fader-thumb" style={{ bottom: `calc(${level}% - 6px)` }}></div>
+        <div className="hardware-section">
+          <div className="knobs-grid">
+            {knobLevels.map((level, i) => (
+              <div key={`knob-${i}`} className="knob-container">
+                <div className="channel-label">ENC 0{i + 1}</div>
+                <div className="knob-outer">
+                  <div 
+                    className="knob-inner" 
+                    style={{ transform: `rotate(${(level / 127) * 270 - 135}deg)` }}
+                  >
+                    <div className="knob-indicator"></div>
+                  </div>
+                </div>
+                <div className="channel-value" style={{marginTop: '8px'}}>{level}</div>
               </div>
-              
-              <div className="channel-value">{level}</div>
-            </div>
-          ))}
+            ))}
+          </div>
+
+          <div className="buttons-grid">
+            {buttonStates.map((state, i) => (
+              <div 
+                key={`btn-${i}`} 
+                className={`push-button ${state ? 'active' : ''}`}
+                onPointerDown={() => toggleButton(i)}
+              >
+                SW0{i + 1}
+              </div>
+            ))}
+          </div>
+
+          <div className="faders-grid">
+            {faderLevels.map((level, i) => (
+              <div key={`fader-${i}`} className="channel-strip">
+                <div className="channel-label">CH 0{i + 1}</div>
+                <div 
+                  className="fader-track"
+                  ref={(el) => { trackRefs.current[i] = el; }}
+                >
+                  <div 
+                    className="fader-thumb" 
+                    style={{ bottom: `calc(${level}% - 6px)` }}
+                    onPointerDown={(e) => handleDrag(i, e)}
+                  ></div>
+                </div>
+                <div className="channel-value">{level}</div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>
