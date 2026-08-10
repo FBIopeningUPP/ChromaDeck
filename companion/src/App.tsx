@@ -1,8 +1,29 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { invoke } from "@tauri-apps/api/core";
 import "./App.css";
 
 function App() {
   const [faderLevels] = useState([85, 42, 18, 100]);
+  const [deviceName, setDeviceName] = useState("SCANNING...");
+
+  useEffect(() => {
+    async function scanMidiPorts() {
+      try {
+        const ports = await invoke<string[]>("list_midi_ports");
+        if (ports.length > 0) {
+          setDeviceName(ports[0]);
+        } else {
+          setDeviceName("NO HARDWARE DETECTED");
+        }
+      } catch (error) {
+        console.error("Failed to feth midi ports", error);
+      }
+    }
+
+    scanMidiPorts();
+    const interval = setInterval(scanMidiPorts, 2000);
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <div className="app-container">
@@ -18,9 +39,9 @@ function App() {
       <div className="panel main-content">
         <div className="header">
           <h2>Main Console</h2>
-          <div className="status-badge">
-            <div className="status-dot"></div>
-            SYNC_OK
+          <div className="status-badge" style={{color: deviceName == "NO HARDWARE DETECTED" ? '#ff3333' : 'var(--accent-secondary)' }}>
+            <div className="status-dot" style={{ backgroundColor: deviceName === "NO HARDWARE DETECTED" ? '#ff3333' : 'var(--accent-secondary)' }}></div>
+            {deviceName}
           </div>
         </div>
 
