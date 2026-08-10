@@ -49,6 +49,16 @@ body {
 }
 
 .brand {
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, var(--accent-cyan), var(--accent-magenta));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-item {
   padding: 14px 18px;
   border-radius: 8px;
   color: var(--text-muted);
@@ -60,12 +70,12 @@ body {
   gap: 12px;
 }
 
-.nav-item:hover, .nav-item:active {
-  background: rgba(255, 255, 255, 0.05))
+.nav-item:hover, .nav-item.active {
+  background: rgba(255, 255, 255, 0.05);
   color: var(--text-main);
 }
 
-.nav-item:active {
+.nav-item.active {
   border-left: 3px solid var(--accent-cyan);
 }
 
@@ -99,7 +109,7 @@ body {
   background-color: var(--accent-cyan);
   border-radius: 50%;
   box-shadow: 0 0 10px var(--accent-cyan);
-  animation: pualse 2s infinite;
+  animation: pulse 2s infinite;
 }
 
 @keyframes pulse {
