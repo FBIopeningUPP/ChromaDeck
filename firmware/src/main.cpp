@@ -5,6 +5,8 @@
 #include "ChromaKey.h"
 #include "ChromaFader.h"
 #include "ChromaEncoder.h"
+#include "LEDManager.h"
+#include "DisplayManager.h"
 
 Adafruit_USBD_MIDI usb_midi;
 MIDI_CREATE_INSTANCE(Adafruit_USBD_MIDI, usb_midi, MIDI);
@@ -27,6 +29,13 @@ ChromaEncoder encoders[6] = {
     ChromaEncoder(PC8, PC9, PC10, 10)
 };
 
+LEDManager leds;
+DisplayManager display;
+
+int currentFaderValues[4] = {0};
+int currentEncoderValues[6] = {0};
+unsigned long lastDisplayUpdate = 0;
+
 void setup() {
     usb_midi.begin();
     MIDI.begin(MIDI_CHANNEL_OMNI);
@@ -34,27 +43,48 @@ void setup() {
     for (int i = 0; i < 8; i++) keys[i].begin();
     for (int i = 0; i < 4; i++) faders[i].begin();
     for (int i = 0; i < 6; i++) encoders[i].begin();
+
+    leds.begin();
+    display.begin();
 }
 
 void loop() {
+    bool graphicsNeedUpdate = false;
+
     for (int i = 0; i < 8; i++) {
         if (keys[i].update()) {
             MIDI.sendNoteOn(keys[i].getNote(), 127, 1);
+            leds.setKeyColor(i, CRGB::Red);
+        } else if (!keys[i].getState()) {
+            leds.setKeyColor(i, CRGB::Black);
         }
     }
 
     for (int i = 0; i < 4; i++) {
         if (faders[i].update()) {
-            MIDI.sendControlChange(faders[i].getCC(), faders[i].getValue(), 1);
+            currentFaderValues[i] = faders[i].getValue();
+            MIDI.sendControlChange(faders[i].getCC(), currentFaderValues[i], 1);
+            leds.setFaderLevel(i, currentFaderValues[i], CRGB::Cyan);
+            graphicsNeedUpdate = true;
         }
     }
 
     for (int i = 0; i < 6; i++) {
         if (encoders[i].updateTurn()) {
-            MIDI.sendControlChange(encoders[i].getCC(), encoders[i].getValue(), 1);
+            currentEncoderValues[i] = encoders[i].getValue();
+            MIDI.sendControlChange(encoders[i].getCC(), currentEncoderValues[i], 1);
+            leds.setEncoderRing(i, currentEncoderValues[i], CRGB::Magenta);
+            graphicsNeedUpdate = true;
         }
         if (encoders[i].updateSwitch()) {
             MIDI.sendNoteOn(50 + i, 127, 1);
         }
+    }
+
+    leds.update();
+
+    if (graphicsNeedUpdate || (millis() - lastDisplayUpdate > 33)) {
+        display.drawDashboard(currentFaderValues, currentEncoderValues);
+        lastDisplayUpdate = millis();
     }
 }
