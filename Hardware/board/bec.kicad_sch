@@ -2062,6 +2062,12 @@
 		(uuid "78c6b05b-10f3-4d08-940f-4624d8d72be5")
 	)
 	(junction
+		(at 178.435 106.045)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7cac9a85-8ef3-4873-82e5-5c8ea63eedac")
+	)
+	(junction
 		(at 60.325 135.255)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2072,6 +2078,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "842b1e3a-f598-4233-abfa-35825dad5473")
+	)
+	(junction
+		(at 187.325 106.045)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "842d572b-3313-40c9-b698-06d8cd016d0e")
 	)
 	(junction
 		(at 169.545 113.665)
@@ -2126,12 +2138,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af0bb865-5fdb-49a2-a131-4d1a02b6c8f8")
-	)
-	(junction
-		(at 178.435 106.045)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b64bb10f-591d-487f-a75f-ee070b87618f")
 	)
 	(junction
 		(at 42.545 27.305)
@@ -2472,6 +2478,16 @@
 			(type default)
 		)
 		(uuid "596deaf1-0900-43df-af53-f3feab9e5caa")
+	)
+	(wire
+		(pts
+			(xy 188.595 106.045) (xy 187.325 106.045)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cbe9762-8112-4809-8caf-d30953335705")
 	)
 	(wire
 		(pts
@@ -2873,65 +2889,137 @@
 		)
 		(uuid "ffa69804-3d44-4f34-b589-3a6baa7e2c86")
 	)
-	(label "+5V_SYS"
+	(global_label "+5V_SYS"
+		(shape bidirectional)
 		(at 160.02 27.305 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
 		(uuid "0805bd5f-0dcc-4f82-b87a-558e9567fb37")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.02 27.305 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "EN"
+	(global_label "EN"
+		(shape bidirectional)
 		(at 65.405 29.845 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "8e045e62-ec03-49f2-a37f-c60fd5e68728")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 65.405 29.845 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "EN"
+	(global_label "EN"
+		(shape bidirectional)
 		(at 91.44 122.555 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "a51fb7d0-7d04-487f-a703-c6c0ac0da4a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.44 122.555 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "+5V_LED"
-		(at 187.325 106.045 0)
+	(global_label "+5V_LED"
+		(shape bidirectional)
+		(at 188.595 106.045 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
 		(uuid "afd10386-8480-4db8-8914-694bcd17a720")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 188.595 106.045 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "+12V"
+	(global_label "+12V"
+		(shape bidirectional)
 		(at 29.845 27.305 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "c392ad45-8aab-4907-bf46-4f3f30ca3cf9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.845 27.305 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "+12V"
+	(global_label "+12V"
+		(shape bidirectional)
 		(at 27.305 104.775 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "c78b0ca2-0d6b-4fca-b5b0-f012a791e99e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 27.305 104.775 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "PCM_Capacitor_US_AKL:C_0805")

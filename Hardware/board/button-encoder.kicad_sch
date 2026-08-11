@@ -1075,305 +1075,831 @@
 		)
 		(uuid "f60b9506-9085-4187-bb95-a6be67e118d5")
 	)
-	(label "ENC5_SW"
+	(global_label "ENC5_SW"
+		(shape bidirectional)
 		(at 232.41 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
 		(uuid "05c2399c-5f36-43e1-90a1-cca1a7709cb1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.41 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "SW_6"
+	(global_label "SW_6"
+		(shape bidirectional)
 		(at 124.46 180.975 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "14a7544d-16ff-4398-a657-31a554ad2b7e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.46 180.975 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "ENC1_A"
+	(global_label "ENC1_A"
+		(shape bidirectional)
 		(at 102.235 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "16f5a150-1fbf-4437-965c-f79ff9a92163")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.235 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "ENC6_B"
+	(global_label "ENC6_B"
+		(shape bidirectional)
 		(at 265.43 127.635 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
 		(uuid "1a68fa3a-775c-4472-99ff-327968e56899")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 265.43 127.635 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "SW_5"
+	(global_label "SW_5"
+		(shape bidirectional)
 		(at 124.46 170.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "1e078401-5b04-40b5-9bdb-8bdd77a2db6e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.46 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "ENC6_A"
+	(global_label "ENC6_A"
+		(shape bidirectional)
 		(at 260.35 127.635 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "1f321926-cb04-4c64-a1a7-7a03de5c9724")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 260.35 127.635 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "ENC4_A"
+	(global_label "+3.3V_ANALOG"
+		(shape bidirectional)
+		(at 107.95 64.135 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1faf994f-0370-4379-97ae-7ddf1c40f417")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 107.95 64.135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "ENC4_A"
+		(shape bidirectional)
 		(at 195.58 127.635 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "2e664edc-9708-40d3-a807-895de372283c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.58 127.635 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "ENC6_SW"
+	(global_label "ENC6_SW"
+		(shape bidirectional)
 		(at 265.43 109.855 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
 		(uuid "34f5575a-9ab4-4e9f-ac5c-1b81345d09e5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 265.43 109.855 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "FADER_3"
+	(global_label "+3.3V_ANALOG"
+		(shape bidirectional)
+		(at 153.035 64.135 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a5c0df8-325e-4926-b6b1-3a998738bbe6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.035 64.135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "FADER_3"
+		(shape bidirectional)
 		(at 146.05 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
 		(uuid "3a68b9df-e0fe-4cd1-a03a-b6e888cc66f6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.05 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "SW_8"
+	(global_label "+3.3V_ANALOG"
+		(shape bidirectional)
+		(at 152.4 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3e4fcf39-684c-4b6a-a479-001a83a1dafc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.4 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "SW_8"
+		(shape bidirectional)
 		(at 149.225 180.975 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "4d823e67-eb70-4299-9e6c-36b18c50cd45")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.225 180.975 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "ENC2_A"
+	(global_label "ENC2_A"
+		(shape bidirectional)
 		(at 134.62 126.365 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "523e8716-c94e-4f66-bcff-cd7869bf1f98")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.62 126.365 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "SW_3"
+	(global_label "SW_3"
+		(shape bidirectional)
 		(at 102.87 169.545 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "54d08d20-f94d-4b7d-8f27-22dbc98a5599")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.87 169.545 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "ENC1_B"
+	(global_label "ENC1_B"
+		(shape bidirectional)
 		(at 107.315 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
 		(uuid "6afa8746-2be7-478e-9641-a98fdf37d2c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 107.315 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "SW_4"
+	(global_label "SW_4"
+		(shape bidirectional)
 		(at 102.87 180.975 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "6f6dc105-981a-41d3-83ad-98c3b3e49473")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.87 180.975 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "ENC4_B"
+	(global_label "ENC4_B"
+		(shape bidirectional)
 		(at 200.66 127.635 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
 		(uuid "742a74c3-af3a-4316-b41b-4c316af1107a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.66 127.635 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "ENC3_SW"
+	(global_label "ENC3_SW"
+		(shape bidirectional)
 		(at 168.275 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
 		(uuid "7d0ee921-9e9c-4e62-ac1f-fae9131690e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.275 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "SW_7"
+	(global_label "SW_7"
+		(shape bidirectional)
 		(at 149.225 170.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "8c472d02-316a-470c-b59f-10c8ea2bc88e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.225 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "FADER_2"
+	(global_label "FADER_2"
+		(shape bidirectional)
 		(at 101.6 57.785 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
 		(uuid "9679e150-3079-48c5-92f6-4f8a88b13dc3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.6 57.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "ENC2_B"
+	(global_label "ENC2_B"
+		(shape bidirectional)
 		(at 139.7 126.365 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
 		(uuid "a0bb21d4-a07b-4dc6-81db-7c9f04bc51ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.7 126.365 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "FADER_4"
+	(global_label "FADER_4"
+		(shape bidirectional)
 		(at 146.685 57.785 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
 		(uuid "c30709c0-135b-44b9-9d3a-b3d4996e94ee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.685 57.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "ENC2_SW"
+	(global_label "ENC2_SW"
+		(shape bidirectional)
 		(at 139.7 108.585 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
 		(uuid "c8376242-f3da-4645-a990-e0f66b7396e6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.7 108.585 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "SW_2"
+	(global_label "SW_2"
+		(shape bidirectional)
 		(at 81.28 180.975 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "c895e008-cb3d-4798-adb3-2177f52f3f5f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.28 180.975 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "ENC4_SW"
+	(global_label "ENC4_SW"
+		(shape bidirectional)
 		(at 200.66 109.855 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
 		(uuid "d7c277a2-460c-4a8f-92f7-e1fdcf41e6e5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.66 109.855 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "ENC3_B"
+	(global_label "ENC3_B"
+		(shape bidirectional)
 		(at 168.275 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
 		(uuid "da8116de-24c0-4fdc-bc2c-cf71490cab62")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.275 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "ENC5_A"
+	(global_label "ENC5_A"
+		(shape bidirectional)
 		(at 227.33 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "dca2719d-a2ef-4a40-a348-ec54e3a89bf6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.33 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "ENC1_SW"
+	(global_label "ENC1_SW"
+		(shape bidirectional)
 		(at 107.315 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
 		(uuid "df99191a-79f9-4db7-94c1-3255b95323ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 107.315 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "FADER_1"
+	(global_label "FADER_1"
+		(shape bidirectional)
 		(at 101.6 41.275 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
 		(uuid "e3d63b20-13e5-4079-8499-e66726f9a86b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.6 41.275 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "ENC5_B"
+	(global_label "ENC5_B"
+		(shape bidirectional)
 		(at 232.41 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
 		(uuid "f22abb1c-e39a-4cf8-9dcd-a22a6494b266")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.41 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "SW_1"
+	(global_label "+3.3V_ANALOG"
+		(shape bidirectional)
+		(at 107.95 47.625 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f5ca4f9d-19d5-46f2-bdd2-22e6ff63e267")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 107.95 47.625 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "SW_1"
+		(shape bidirectional)
 		(at 81.28 169.545 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "f8b9d973-a9eb-4fa3-9806-ebf7cd18574c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.28 169.545 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "ENC3_A"
+	(global_label "ENC3_A"
+		(shape bidirectional)
 		(at 163.195 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "fc1e95b2-4f88-4697-9d0f-38880bb3a636")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.195 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 140.335 64.135 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0379ae30-fa65-4bed-8fd6-03bf33fdb5a3")
+		(property "Reference" "#PWR063"
+			(at 133.985 64.135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 136.525 64.135 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.335 64.135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.335 64.135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 131.445 64.135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ba2799a9-a91a-48ed-aada-1b0e551157db")
+		)
+		(instances
+			(project "board"
+				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/58fefd48-2eee-4fcb-b0ad-9a73a5e36ec8"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
@@ -1995,6 +2521,84 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 95.25 64.135 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "539c8f1c-d243-421d-bbac-a780bdb58b7c")
+		(property "Reference" "#PWR060"
+			(at 88.9 64.135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 64.135 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 64.135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 64.135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 86.36 64.135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8673853a-e19a-45f3-a284-7763b4255e3c")
+		)
+		(instances
+			(project "board"
+				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/58fefd48-2eee-4fcb-b0ad-9a73a5e36ec8"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
 		(at 134.62 108.585 180)
 		(unit 1)
 		(body_style 1)
@@ -2564,6 +3168,84 @@
 			(project "board"
 				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/58fefd48-2eee-4fcb-b0ad-9a73a5e36ec8"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 95.25 47.625 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "830ac261-3baf-4b33-961a-778eddc4f7ea")
+		(property "Reference" "#PWR061"
+			(at 88.9 47.625 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 47.625 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 47.625 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 47.625 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 86.36 47.625 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "70efa621-50d7-4669-8f5d-c0a6ae6091c0")
+		)
+		(instances
+			(project "board"
+				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/58fefd48-2eee-4fcb-b0ad-9a73a5e36ec8"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -4173,6 +4855,84 @@
 			(project "board"
 				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/58fefd48-2eee-4fcb-b0ad-9a73a5e36ec8"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 139.7 46.99 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c59dca00-c7f4-41db-9034-43a7e9f08b9f")
+		(property "Reference" "#PWR062"
+			(at 133.35 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 46.99 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d0110249-66d4-4e57-acd7-5c210ae1ba22")
+		)
+		(instances
+			(project "board"
+				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/58fefd48-2eee-4fcb-b0ad-9a73a5e36ec8"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)

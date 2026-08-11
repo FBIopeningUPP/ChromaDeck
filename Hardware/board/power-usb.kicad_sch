@@ -2352,6 +2352,12 @@
 		(uuid "0b5c8512-cea5-44e3-a744-ec04f3ad3264")
 	)
 	(junction
+		(at 149.225 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16369222-f082-4384-9300-775af9800961")
+	)
+	(junction
 		(at 149.86 94.615)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2388,6 +2394,12 @@
 		(uuid "7dabb987-5770-47df-a04d-6488aad8a925")
 	)
 	(junction
+		(at 177.165 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9031dfe3-6f76-4496-bb39-5e32f509bda3")
+	)
+	(junction
 		(at 69.215 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2404,6 +2416,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb8e2daa-cb3f-4638-8e48-24c60a88078f")
+	)
+	(junction
+		(at 139.065 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d527ddcc-8807-42f2-98e4-39b93c595312")
 	)
 	(junction
 		(at 149.225 116.84)
@@ -2433,6 +2451,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.225 138.43) (xy 153.67 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b395bc6-d7b1-4fd9-92ae-f20d47d45931")
+	)
+	(wire
+		(pts
 			(xy 69.215 35.56) (xy 73.66 35.56)
 		)
 		(stroke
@@ -2450,6 +2478,16 @@
 			(type default)
 		)
 		(uuid "0df5ed97-dcda-459d-aba9-e31b13c21892")
+	)
+	(wire
+		(pts
+			(xy 168.91 139.7) (xy 177.165 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e2c7c77-2e14-41ad-9b80-34fa8d1f78b3")
 	)
 	(wire
 		(pts
@@ -2473,6 +2511,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.225 140.97) (xy 149.225 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1696b946-8c2c-4824-8833-94ff5dda9199")
+	)
+	(wire
+		(pts
 			(xy 36.83 67.945) (xy 29.21 67.945)
 		)
 		(stroke
@@ -2490,6 +2538,16 @@
 			(type default)
 		)
 		(uuid "293bd8d4-e593-4315-88fb-cb1ec47bbf8c")
+	)
+	(wire
+		(pts
+			(xy 177.165 139.7) (xy 185.42 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3829f99c-df53-4d98-b603-cf9dd62b48ff")
 	)
 	(wire
 		(pts
@@ -2663,6 +2721,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 140.97) (xy 149.225 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af98a4b3-0343-495d-bc7c-981aaa809146")
+	)
+	(wire
+		(pts
 			(xy 273.05 22.225) (xy 276.86 22.225)
 		)
 		(stroke
@@ -2683,6 +2751,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.065 138.43) (xy 149.225 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6d7374b-c52b-4d05-a6d9-922f98fb575c")
+	)
+	(wire
+		(pts
 			(xy 139.7 94.615) (xy 149.86 94.615)
 		)
 		(stroke
@@ -2700,6 +2778,16 @@
 			(type default)
 		)
 		(uuid "cc8e6c46-8586-480a-8199-2910df752c9b")
+	)
+	(wire
+		(pts
+			(xy 135.255 138.43) (xy 139.065 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6a62335-c9a0-4d6d-986f-72046c61e113")
 	)
 	(wire
 		(pts
@@ -2771,145 +2859,357 @@
 		)
 		(uuid "fceea524-537e-43d8-8788-79e1ce3dd977")
 	)
-	(label "+12V"
+	(global_label "+12V"
+		(shape bidirectional)
 		(at 251.46 53.975 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "09efbb93-69b6-416e-99e8-7048639df931")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 251.46 53.975 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "+5V_SYS"
+	(global_label "+5V_SYS"
+		(shape bidirectional)
 		(at 135.255 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "0cfda060-818e-4622-8baf-7d21a7176b14")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.255 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "+5V_SYS"
+	(global_label "+5V_SYS"
+		(shape bidirectional)
 		(at 135.89 94.615 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "11a13af2-b8d8-46e2-a5a3-34d3084a7a99")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.89 94.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "+12V"
+	(global_label "+12V"
+		(shape bidirectional)
 		(at 276.86 22.225 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
 		(uuid "13a90f60-64c3-40df-9d6b-18566dafa08b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 276.86 22.225 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "USB_D-"
+	(global_label "USB_D-"
+		(shape bidirectional)
 		(at 55.88 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
 		(uuid "66be14bd-3009-47fe-8bc8-ec7e14eb7044")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.88 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "USB_D+"
+	(global_label "USB_D+"
+		(shape bidirectional)
 		(at 55.88 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
 		(uuid "6fd636cf-98f7-4787-a099-2c82a26851c1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.88 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "5V_USB"
+	(global_label "5V_USB"
+		(shape bidirectional)
 		(at 154.305 35.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "7dcb8e7f-4675-4e66-bf71-a28c1049faaf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.305 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "+5V_SYS"
+	(global_label "+5V_SYS"
+		(shape bidirectional)
 		(at 154.305 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "90406173-a09c-44d0-89db-898c10698ed9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.305 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "+3.3V_DIGITAL"
+	(global_label "+3.3V_DIGITAL"
+		(shape bidirectional)
 		(at 186.055 95.885 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
 		(uuid "932c0a4d-5253-4144-87f5-bd00eeb7d4fd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.055 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "CC2"
+	(global_label "CC2"
+		(shape bidirectional)
 		(at 73.66 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
 		(uuid "b761d91a-b3ac-4f45-897d-4911bba719a9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.66 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "+5V_SYS"
+	(global_label "+3.3V_ANALOG"
+		(shape bidirectional)
+		(at 185.42 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c42c2c0c-1586-4ae1-94df-5c0033dfb6fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.42 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "+5V_SYS"
+		(shape bidirectional)
 		(at 168.275 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
 		(uuid "cacd1b62-74ab-4ffc-abdd-80b8c3c3e635")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.275 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "+3.3V_DIGITAL"
+	(global_label "+5V_SYS"
+		(shape bidirectional)
+		(at 135.255 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d9be1fe8-f6c3-4c89-b6f5-cb9b876ef288")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.255 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "+3.3V_DIGITAL"
+		(shape bidirectional)
 		(at 185.42 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
 		(uuid "e840719c-5f08-41fd-a6b6-4db891d70510")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.42 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "5V_USB"
+	(global_label "5V_USB"
+		(shape bidirectional)
 		(at 52.07 27.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
 		(uuid "ec0dfb43-9504-44aa-b180-1f8c04d3e861")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.07 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "CC1"
+	(global_label "CC1"
+		(shape bidirectional)
 		(at 73.66 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
 		(uuid "ff43421a-4190-41c2-9a22-af89be982fa1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.66 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Regulator_Linear:MIC5219-3.3YM5")
@@ -3096,6 +3396,84 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 153.67 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fab49dc-7fff-45ba-b361-f981efe1f0a3")
+		(property "Reference" "#PWR058"
+			(at 153.67 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 147.32 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "02df7c3f-894e-4002-9469-8a2d0ea81528")
+		)
+		(instances
+			(project "board"
+				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/3ef6c159-c183-4515-9efb-03480defbf53"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
 		(at 276.86 27.305 90)
 		(unit 1)
 		(body_style 1)
@@ -3263,6 +3641,95 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:MIC5219-3.3YM5")
+		(at 161.29 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "478912c9-5556-4a36-ad46-01967b539718")
+		(property "Reference" "U51"
+			(at 161.29 131.445 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MIC5219-3.3YM5"
+			(at 161.29 133.985 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 161.036 120.142 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf"
+			(at 160.782 122.428 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "500mA low dropout linear regulator, fixed 3.3V output, SOT-23-5"
+			(at 160.274 125.476 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "b876a945-fe37-4ac3-9e41-932fd7e4647c")
+		)
+		(pin "3"
+			(uuid "e760a54c-8a03-4c4f-bd5f-1d7095a0f5f7")
+		)
+		(pin "2"
+			(uuid "e36b28fd-5a7a-41e3-8323-5ec7b389f0e4")
+		)
+		(pin "1"
+			(uuid "90f79f9a-ea21-4a34-87b7-ef02c638a34a")
+		)
+		(pin "4"
+			(uuid "6fee88b1-ba29-4e3e-8383-2abf3504d0cf")
+		)
+		(instances
+			(project "board"
+				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/3ef6c159-c183-4515-9efb-03480defbf53"
+					(reference "U51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
 		(at 259.08 53.975 90)
 		(unit 1)
@@ -3413,6 +3880,84 @@
 			(project "board"
 				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/3ef6c159-c183-4515-9efb-03480defbf53"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 177.165 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a92dadb-a60b-49c9-afaf-873c65b575aa")
+		(property "Reference" "#PWR059"
+			(at 177.165 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.165 151.13 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.165 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.165 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 177.165 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "498aedfe-a7f2-4c36-b58a-e320d7cf9ab0")
+		)
+		(instances
+			(project "board"
+				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/3ef6c159-c183-4515-9efb-03480defbf53"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -3665,6 +4210,84 @@
 			(project "board"
 				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/3ef6c159-c183-4515-9efb-03480defbf53"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 139.065 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9678a5c9-e1e0-470c-831c-1aa37ea958ea")
+		(property "Reference" "#PWR057"
+			(at 139.065 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.065 149.86 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.065 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.065 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.065 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c9886787-9d22-4262-9066-1bdeb91b1a7c")
+		)
+		(instances
+			(project "board"
+				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/3ef6c159-c183-4515-9efb-03480defbf53"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -3997,6 +4620,87 @@
 			(project "board"
 				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/3ef6c159-c183-4515-9efb-03480defbf53"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_fab:C_0603")
+		(at 139.065 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b2ce7764-6e6e-47c5-9152-8f15290aa1ce")
+		(property "Reference" "C40"
+			(at 141.605 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 141.605 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_fab:C_0603"
+			(at 139.065 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf"
+			(at 139.065 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, SMD, 1206"
+			(at 139.065 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "154b0bd2-09ec-4dfe-9046-dac10eaa3a67")
+		)
+		(pin "2"
+			(uuid "e89e7114-e637-4780-8121-3f082bf67823")
+		)
+		(instances
+			(project "board"
+				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/3ef6c159-c183-4515-9efb-03480defbf53"
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -4706,6 +5410,87 @@
 			(project "board"
 				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/3ef6c159-c183-4515-9efb-03480defbf53"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_fab:C_0603")
+		(at 177.165 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f3a2bdf2-0ced-4ba9-bc08-e9003d57631c")
+		(property "Reference" "C41"
+			(at 179.705 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 179.705 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_fab:C_0603"
+			(at 177.165 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf"
+			(at 177.165 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, SMD, 1206"
+			(at 177.165 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "611836a6-30d0-4325-b2f4-f7440139054d")
+		)
+		(pin "2"
+			(uuid "7d5c469c-ca7d-4541-b5cd-155fda0aa2e6")
+		)
+		(instances
+			(project "board"
+				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/3ef6c159-c183-4515-9efb-03480defbf53"
+					(reference "C41")
 					(unit 1)
 				)
 			)

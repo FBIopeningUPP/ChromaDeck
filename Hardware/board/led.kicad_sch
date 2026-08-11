@@ -2160,215 +2160,467 @@
 		)
 		(uuid "ff11fc99-9ff0-4a37-a248-c17fc8db467a")
 	)
-	(label "LED_ENC2_DATA"
+	(global_label "LED_ENC2_DATA"
+		(shape bidirectional)
 		(at 152.4 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "03b13cce-26b7-403c-9017-ab464730df9a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.4 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "+5V_LED"
+	(global_label "+5V_LED"
+		(shape bidirectional)
 		(at 54.61 69.215 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "08b0108c-7526-4e0b-9cad-e0c963edc557")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.61 69.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "LED_ENC1_DATA"
+	(global_label "LED_ENC1_DATA"
+		(shape bidirectional)
 		(at 153.035 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "09a21b02-3b2b-4fa5-84f4-a2bdb342521a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.035 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "+5V_LED"
+	(global_label "+5V_LED"
+		(shape bidirectional)
 		(at 211.455 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "1ae19f5d-8c82-4536-a461-a72227aa4273")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.455 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "LED_ENC4_DATA"
+	(global_label "LED_ENC4_DATA"
+		(shape bidirectional)
 		(at 211.455 50.165 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "2154120f-47dd-4f2b-9572-29553a14bfb8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.455 50.165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "+5V_LED"
+	(global_label "+5V_LED"
+		(shape bidirectional)
 		(at 211.455 52.705 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "2aede94b-b9d5-4a86-88b0-c5817ffbbb52")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.455 52.705 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "+5V_LED"
+	(global_label "+5V_LED"
+		(shape bidirectional)
 		(at 54.61 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "2bef92dd-b41a-4895-8533-143f4d2ffba6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.61 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "+5V_LED"
+	(global_label "+5V_LED"
+		(shape bidirectional)
 		(at 153.67 71.755 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "4611d459-10f9-4872-971b-eb1e1e61702e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.67 71.755 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "LED_FADER1_DATA"
+	(global_label "LED_FADER1_DATA"
+		(shape bidirectional)
 		(at 54.61 33.655 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "47fe0229-02a9-48b9-b37c-bfdb9b4dc919")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.61 33.655 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "LED_FADER3_DATA"
+	(global_label "LED_FADER3_DATA"
+		(shape bidirectional)
 		(at 54.61 66.675 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "58169617-0303-432f-8799-0c5e4dd37fa5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.61 66.675 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "LED_KEYS_DATA"
+	(global_label "LED_KEYS_DATA"
+		(shape bidirectional)
 		(at 72.39 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "590e146f-fa9a-4a97-b48c-11edc591caf2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 72.39 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "LED_ENC3_DATA"
+	(global_label "LED_ENC3_DATA"
+		(shape bidirectional)
 		(at 153.67 69.215 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "68f63450-e084-402e-b085-3f194a96d4ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.67 69.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "+5V_LED"
+	(global_label "+5V_LED"
+		(shape bidirectional)
 		(at 211.455 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "6fc295d1-12c3-4c1a-851c-b59c367cbb38")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.455 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "+5V_LED"
+	(global_label "+5V_LED"
+		(shape bidirectional)
 		(at 54.61 36.195 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "7d717b1b-479a-47b3-b7e4-3bd287988ee3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.61 36.195 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "LED_ENC3_DATA"
+	(global_label "LED_ENC3_DATA"
+		(shape bidirectional)
 		(at 211.455 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "7de8cad2-0c4d-431f-aa0d-25a314bcf213")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.455 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "+5V_LED"
+	(global_label "+5V_LED"
+		(shape bidirectional)
 		(at 152.4 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "bc2008b4-734d-47de-9a80-cce5c0056ccb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.4 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "LED_FADER2_DATA"
+	(global_label "LED_FADER2_DATA"
+		(shape bidirectional)
 		(at 54.61 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "cc54fd2f-c9e6-4be2-ad20-0b1e64afb86f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.61 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "LED_ENC5_DATA"
+	(global_label "LED_ENC5_DATA"
+		(shape bidirectional)
 		(at 211.455 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "d717136b-27d8-42e6-98af-0c30cc24571e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.455 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "+5V_LED"
+	(global_label "+5V_LED"
+		(shape bidirectional)
 		(at 153.035 35.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "e40974ff-b927-420f-a730-0407ac7ec1b0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.035 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "LED_FADER4_DATA"
+	(global_label "LED_FADER4_DATA"
+		(shape bidirectional)
 		(at 54.61 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "e43c48d5-e4e6-4bb0-af58-712a8990a1f1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.61 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
-	(label "+5V_LED"
+	(global_label "+5V_LED"
+		(shape bidirectional)
 		(at 54.61 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
 		(uuid "fbbdfe70-7965-4144-90ff-d33fda4e06b8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.61 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "easyeda_imports:WS2812B-4020-G1")
