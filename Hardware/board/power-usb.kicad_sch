@@ -2123,6 +2123,221 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda_imports:RVT1C102M1010"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RVT1C102M1010"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda_imports:CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Aluminum-Electrolytic-Capacitors-SMD_1000uF-16V-20_C72470.html"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "1000uF 16V ±20%"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "ROQANG(容强)"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "RVT1C102M1010"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C72470"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Aluminum Electrolytic Capacitors - SMD"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RVT1C102M1010_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0.76) (xy -1.52 0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.03 1.27) (xy -2.03 0.25)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.51 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 2.03) (xy -0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.21 -1.83)
+					(mid 0.51 0.09)
+					(end 1.33 1.95)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 66.04 33.02)
@@ -2556,7 +2771,17 @@
 		)
 		(uuid "fceea524-537e-43d8-8788-79e1ce3dd977")
 	)
-	(label "5V_SYS"
+	(label "+12V"
+		(at 251.46 53.975 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "09efbb93-69b6-416e-99e8-7048639df931")
+	)
+	(label "+5V_SYS"
 		(at 135.255 116.84 180)
 		(effects
 			(font
@@ -2566,7 +2791,7 @@
 		)
 		(uuid "0cfda060-818e-4622-8baf-7d21a7176b14")
 	)
-	(label "5V_SYS"
+	(label "+5V_SYS"
 		(at 135.89 94.615 180)
 		(effects
 			(font
@@ -2576,7 +2801,7 @@
 		)
 		(uuid "11a13af2-b8d8-46e2-a5a3-34d3084a7a99")
 	)
-	(label "12V"
+	(label "+12V"
 		(at 276.86 22.225 0)
 		(effects
 			(font
@@ -2586,7 +2811,7 @@
 		)
 		(uuid "13a90f60-64c3-40df-9d6b-18566dafa08b")
 	)
-	(label "D-"
+	(label "USB_D-"
 		(at 55.88 43.18 0)
 		(effects
 			(font
@@ -2596,7 +2821,7 @@
 		)
 		(uuid "66be14bd-3009-47fe-8bc8-ec7e14eb7044")
 	)
-	(label "D+"
+	(label "USB_D+"
 		(at 55.88 45.72 0)
 		(effects
 			(font
@@ -2616,7 +2841,7 @@
 		)
 		(uuid "7dcb8e7f-4675-4e66-bf71-a28c1049faaf")
 	)
-	(label "5V_BUCK"
+	(label "+5V_SYS"
 		(at 154.305 40.64 180)
 		(effects
 			(font
@@ -2626,7 +2851,7 @@
 		)
 		(uuid "90406173-a09c-44d0-89db-898c10698ed9")
 	)
-	(label "3.3V_MCU"
+	(label "+3.3V_DIGITAL"
 		(at 186.055 95.885 0)
 		(effects
 			(font
@@ -2646,7 +2871,7 @@
 		)
 		(uuid "b761d91a-b3ac-4f45-897d-4911bba719a9")
 	)
-	(label "5V_SYS"
+	(label "+5V_SYS"
 		(at 168.275 38.1 0)
 		(effects
 			(font
@@ -2656,7 +2881,7 @@
 		)
 		(uuid "cacd1b62-74ab-4ffc-abdd-80b8c3c3e635")
 	)
-	(label "3.3V_SYS"
+	(label "+3.3V_DIGITAL"
 		(at 185.42 118.11 0)
 		(effects
 			(font
@@ -2698,7 +2923,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10b1023d-12f3-4628-867f-97fa2ef69abd")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 161.29 109.855 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2769,7 +2994,7 @@
 		(instances
 			(project "board"
 				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/3ef6c159-c183-4515-9efb-03480defbf53"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -2881,7 +3106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bc00ca2-7430-4423-8494-661fae6321ac")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR010"
 			(at 283.21 27.305 0)
 			(hide yes)
 			(show_name no)
@@ -2941,7 +3166,7 @@
 		(instances
 			(project "board"
 				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/3ef6c159-c183-4515-9efb-03480defbf53"
-					(reference "#PWR03")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -3039,6 +3264,84 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 259.08 53.975 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48a67440-65b6-4b84-9d2d-1158c105742f")
+		(property "Reference" "#PWR09"
+			(at 265.43 53.975 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 262.89 53.975 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 53.975 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 53.975 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 267.97 53.975 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "897f4fe7-20c8-4458-a828-c98ceeb6a340")
+		)
+		(instances
+			(project "board"
+				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/3ef6c159-c183-4515-9efb-03480defbf53"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
 		(at 177.165 125.73 0)
 		(unit 1)
 		(body_style 1)
@@ -3049,7 +3352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6338d9bf-863c-43dd-aa50-02e8691993d0")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR07"
 			(at 177.165 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -3109,7 +3412,7 @@
 		(instances
 			(project "board"
 				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/3ef6c159-c183-4515-9efb-03480defbf53"
-					(reference "#PWR09")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -3210,7 +3513,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92ca8375-bd3a-4842-81cd-530e69131b26")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR01"
 			(at 22.86 67.945 0)
 			(hide yes)
 			(show_name no)
@@ -3270,7 +3573,7 @@
 		(instances
 			(project "board"
 				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/3ef6c159-c183-4515-9efb-03480defbf53"
-					(reference "#PWR02")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -3378,7 +3681,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9bdc3551-f875-4cc3-b7e2-4a728083fd56")
-		(property "Reference" "C1"
+		(property "Reference" "C2"
 			(at 142.24 97.155 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3442,7 +3745,7 @@
 		(instances
 			(project "board"
 				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/3ef6c159-c183-4515-9efb-03480defbf53"
-					(reference "C1")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -3459,7 +3762,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab60a5d1-8741-4a84-945e-4b80f9520d98")
-		(property "Reference" "C3"
+		(property "Reference" "C1"
 			(at 141.605 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3523,7 +3826,7 @@
 		(instances
 			(project "board"
 				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/3ef6c159-c183-4515-9efb-03480defbf53"
-					(reference "C3")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -3541,7 +3844,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aca2c6b4-94a0-4ca0-91e4-8078d5cb28b5")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 161.925 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3612,7 +3915,7 @@
 		(instances
 			(project "board"
 				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/3ef6c159-c183-4515-9efb-03480defbf53"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -3629,7 +3932,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b1c1d464-0d34-47e2-a988-60a0df717611")
-		(property "Reference" "C4"
+		(property "Reference" "C3"
 			(at 179.705 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3693,7 +3996,7 @@
 		(instances
 			(project "board"
 				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/3ef6c159-c183-4515-9efb-03480defbf53"
-					(reference "C4")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -3710,7 +4013,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b90f6471-3242-4114-87af-8d0e799582dc")
-		(property "Reference" "C2"
+		(property "Reference" "C4"
 			(at 180.34 98.425 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3774,7 +4077,7 @@
 		(instances
 			(project "board"
 				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/3ef6c159-c183-4515-9efb-03480defbf53"
-					(reference "C2")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -3917,7 +4220,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1972b4c-f5a5-4145-8d73-5dccd15634e3")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR02"
 			(at 75.565 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -3977,7 +4280,7 @@
 		(instances
 			(project "board"
 				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/3ef6c159-c183-4515-9efb-03480defbf53"
-					(reference "#PWR01")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -3995,7 +4298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d71ec7a6-8b82-4237-94e1-8bf4a717c802")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR04"
 			(at 139.7 108.585 0)
 			(hide yes)
 			(show_name no)
@@ -4055,7 +4358,7 @@
 		(instances
 			(project "board"
 				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/3ef6c159-c183-4515-9efb-03480defbf53"
-					(reference "#PWR05")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -4073,7 +4376,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d91bda5b-3742-4b3c-a079-e59a189af0e7")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR05"
 			(at 153.67 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -4133,7 +4436,7 @@
 		(instances
 			(project "board"
 				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/3ef6c159-c183-4515-9efb-03480defbf53"
-					(reference "#PWR08")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4151,7 +4454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da752c9d-e345-436d-81f8-139f09012085")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR06"
 			(at 154.305 106.045 0)
 			(hide yes)
 			(show_name no)
@@ -4211,7 +4514,120 @@
 		(instances
 			(project "board"
 				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/3ef6c159-c183-4515-9efb-03480defbf53"
-					(reference "#PWR04")
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda_imports:RVT1C102M1010")
+		(at 255.27 53.975 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbf46512-e8d7-4156-ba24-793405e22598")
+		(property "Reference" "C5"
+			(at 254.665 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RVT1C102M1010"
+			(at 254.665 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda_imports:CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD"
+			(at 255.27 61.595 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Aluminum-Electrolytic-Capacitors-SMD_1000uF-16V-20_C72470.html"
+			(at 255.27 64.135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1000uF 16V ±20%"
+			(at 255.27 53.975 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ROQANG(容强)"
+			(at 255.27 66.675 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RVT1C102M1010"
+			(at 255.27 69.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C72470"
+			(at 255.27 71.755 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bed9b409-9932-4296-9a11-d8d9a03a0f58")
+		)
+		(pin "1"
+			(uuid "0c790a77-65aa-4328-9f57-474bff21ffe8")
+		)
+		(instances
+			(project "board"
+				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/3ef6c159-c183-4515-9efb-03480defbf53"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -4229,7 +4645,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eed83f7b-f68d-4777-97e9-97b205855bfd")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR08"
 			(at 177.8 109.855 0)
 			(hide yes)
 			(show_name no)
@@ -4289,7 +4705,7 @@
 		(instances
 			(project "board"
 				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/3ef6c159-c183-4515-9efb-03480defbf53"
-					(reference "#PWR06")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4307,7 +4723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f567abb8-89a4-47bd-bdf5-83d27f2cee3b")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR03"
 			(at 139.065 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -4367,7 +4783,7 @@
 		(instances
 			(project "board"
 				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/3ef6c159-c183-4515-9efb-03480defbf53"
-					(reference "#PWR07")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)

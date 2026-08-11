@@ -52,6 +52,52 @@
 		)
 	)
 	(sheet
+		(at 171.45 19.05)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "439b5fef-8eb6-4cc2-837e-59cefe4bc8c0")
+		(property "Sheetname" "bec"
+			(at 171.45 18.3384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bec.kicad_sch"
+			(at 171.45 32.3346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "board"
+				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 105.41 19.05)
 		(size 21.59 14.605)
 		(exclude_from_sim no)

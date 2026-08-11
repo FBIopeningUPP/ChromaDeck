@@ -1732,6 +1732,12 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 260.985 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15dd7aab-60df-439c-b5d0-ea83ad8d7ead")
+	)
 	(wire
 		(pts
 			(xy 259.715 34.29) (xy 260.985 35.56)
@@ -1752,7 +1758,17 @@
 		)
 		(uuid "99148a03-139a-473d-b623-e4e7a7fa2905")
 	)
-	(label "D3"
+	(wire
+		(pts
+			(xy 260.985 33.02) (xy 260.985 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6421956-fee6-43c9-a9bf-f11ca6ffdbaf")
+	)
+	(label "FSMC_D3"
 		(at 260.985 48.26 180)
 		(effects
 			(font
@@ -1762,7 +1778,7 @@
 		)
 		(uuid "01c286cc-885c-44b7-add3-b6d9d35090af")
 	)
-	(label "LCS_CS"
+	(label "FSMC_NE1"
 		(at 260.985 83.82 180)
 		(effects
 			(font
@@ -1772,7 +1788,7 @@
 		)
 		(uuid "030c0acd-52f7-478a-9ecc-f0caa59c5c9e")
 	)
-	(label "3.3V_SYS"
+	(label "+3.3V_DIGITAL"
 		(at 260.985 38.1 180)
 		(effects
 			(font
@@ -1782,7 +1798,7 @@
 		)
 		(uuid "0990f62c-e5c7-499e-85fc-162770a79360")
 	)
-	(label "D1"
+	(label "FSMC_D1"
 		(at 260.985 43.18 180)
 		(effects
 			(font
@@ -1792,7 +1808,7 @@
 		)
 		(uuid "09c3888e-5bc9-4a69-b408-ebecba7e50f8")
 	)
-	(label "D13"
+	(label "FSMC_D13"
 		(at 260.985 76.2 180)
 		(effects
 			(font
@@ -1802,7 +1818,7 @@
 		)
 		(uuid "12851e9c-0c3f-466c-8c04-3da2b9ba3eac")
 	)
-	(label "D14"
+	(label "FSMC_D14"
 		(at 260.985 78.74 180)
 		(effects
 			(font
@@ -1812,7 +1828,7 @@
 		)
 		(uuid "12eff5cf-60cd-45ef-9747-0c04346f0863")
 	)
-	(label "D10"
+	(label "FSMC_D10"
 		(at 260.985 68.58 180)
 		(effects
 			(font
@@ -1822,7 +1838,7 @@
 		)
 		(uuid "16b41065-affe-4c36-b90a-d2eaf53ea7c9")
 	)
-	(label "D12"
+	(label "FSMC_D12"
 		(at 260.985 73.66 180)
 		(effects
 			(font
@@ -1832,7 +1848,7 @@
 		)
 		(uuid "1a2ece38-adce-41f4-a96a-f5257614a7f8")
 	)
-	(label "LCS_RS"
+	(label "FSMC_A16"
 		(at 260.985 86.36 180)
 		(effects
 			(font
@@ -1842,7 +1858,7 @@
 		)
 		(uuid "1ad05886-2359-4a22-bd2c-fa0d89ce42cf")
 	)
-	(label "D11"
+	(label "FSMC_D11"
 		(at 260.985 71.12 180)
 		(effects
 			(font
@@ -1852,7 +1868,7 @@
 		)
 		(uuid "1fb4f115-096f-4b32-8a91-6cf670498c91")
 	)
-	(label "D5"
+	(label "FSMC_D5"
 		(at 260.985 55.88 180)
 		(effects
 			(font
@@ -1862,7 +1878,7 @@
 		)
 		(uuid "28e83eb7-a7dc-4979-aa72-27fb0323d1c0")
 	)
-	(label "3.3V_SYS"
+	(label "+3.3V_DIGITAL"
 		(at 79.375 107.95 180)
 		(effects
 			(font
@@ -1872,7 +1888,7 @@
 		)
 		(uuid "3c9f4fae-8a7d-4821-bcf8-bdad88e125f6")
 	)
-	(label "D6"
+	(label "FSMC_D6"
 		(at 260.985 58.42 180)
 		(effects
 			(font
@@ -1882,7 +1898,7 @@
 		)
 		(uuid "43acbb48-c806-4192-824e-e4d7bf2709e9")
 	)
-	(label "D0"
+	(label "FSMC_D0"
 		(at 260.985 40.64 180)
 		(effects
 			(font
@@ -1892,7 +1908,7 @@
 		)
 		(uuid "515a1a94-e997-49d1-b3ba-575a4d6f0baa")
 	)
-	(label "LCS_RST"
+	(label "LCD_RST"
 		(at 260.985 93.98 180)
 		(effects
 			(font
@@ -1902,7 +1918,7 @@
 		)
 		(uuid "60a0dbf3-67af-4037-b8e2-38ecd0e9a998")
 	)
-	(label "D9"
+	(label "FSMC_D9"
 		(at 260.985 66.04 180)
 		(effects
 			(font
@@ -1912,7 +1928,7 @@
 		)
 		(uuid "61cfef97-df61-4977-a17b-c3a8cd20ae01")
 	)
-	(label "D15"
+	(label "FSMC_D15"
 		(at 260.985 81.28 180)
 		(effects
 			(font
@@ -1922,7 +1938,7 @@
 		)
 		(uuid "6717b0e6-f292-46d9-bc3e-0e8d14c91532")
 	)
-	(label "D2"
+	(label "FSMC_D2"
 		(at 260.985 45.72 180)
 		(effects
 			(font
@@ -1932,7 +1948,7 @@
 		)
 		(uuid "6be5bb5e-3d7c-4cf1-a7c8-f1764f6cb2be")
 	)
-	(label "LCS_WR"
+	(label "FSMC_NWE"
 		(at 260.985 88.9 180)
 		(effects
 			(font
@@ -1942,7 +1958,7 @@
 		)
 		(uuid "8543ee46-ecb6-4e85-8597-c9b2c3be79de")
 	)
-	(label "5V_SYS"
+	(label "+5V_SYS"
 		(at 57.785 97.79 180)
 		(effects
 			(font
@@ -1952,7 +1968,7 @@
 		)
 		(uuid "9560350a-f318-429e-b5e1-c7c50a7ff22b")
 	)
-	(label "D8"
+	(label "FSMC_D8"
 		(at 260.985 63.5 180)
 		(effects
 			(font
@@ -1962,7 +1978,7 @@
 		)
 		(uuid "9ae96ef3-0708-4702-9a9f-6a5cc860209a")
 	)
-	(label "D4"
+	(label "FSMC_D4"
 		(at 260.985 50.8 180)
 		(effects
 			(font
@@ -1972,7 +1988,7 @@
 		)
 		(uuid "bda4441c-de4b-42b2-8281-4c221f459570")
 	)
-	(label "D4"
+	(label "FSMC_D4"
 		(at 260.985 53.34 180)
 		(effects
 			(font
@@ -1982,7 +1998,7 @@
 		)
 		(uuid "d82c393a-2651-46a5-82d4-d0af4c552dd7")
 	)
-	(label "LCS_RD"
+	(label "FSMC_NOE"
 		(at 260.985 91.44 180)
 		(effects
 			(font
@@ -1992,7 +2008,7 @@
 		)
 		(uuid "ea641541-d14c-4722-9265-3fc3ff56a4b6")
 	)
-	(label "D7"
+	(label "FSMC_D7"
 		(at 260.985 60.96 180)
 		(effects
 			(font
@@ -2014,7 +2030,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15f52a63-5a3e-4073-a899-953d49424376")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR018"
 			(at 111.125 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2074,7 +2090,7 @@
 		(instances
 			(project "board"
 				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/a518d5fa-3e63-4101-a721-9b8ba5303779"
-					(reference "#PWR020")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -2092,7 +2108,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e7c3f6d-e85e-41bc-8867-f85f2a64fc8e")
-		(property "Reference" "U5"
+		(property "Reference" "U4"
 			(at 92.075 90.805 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2199,7 +2215,7 @@
 		(instances
 			(project "board"
 				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/a518d5fa-3e63-4101-a721-9b8ba5303779"
-					(reference "U5")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -2217,7 +2233,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f58d81c-2942-4ce8-85e7-40d1fc9882e1")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 272.415 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2434,7 +2450,7 @@
 		(instances
 			(project "board"
 				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/a518d5fa-3e63-4101-a721-9b8ba5303779"
-					(reference "U4")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -2452,7 +2468,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5070a900-ac31-455d-b05d-9417783a5813")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR020"
 			(at 263.525 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -2512,7 +2528,7 @@
 		(instances
 			(project "board"
 				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/a518d5fa-3e63-4101-a721-9b8ba5303779"
-					(reference "#PWR018")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -2530,7 +2546,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e9738a7-189a-422a-a6e3-f9b8bbfef1b4")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR021"
 			(at 263.525 127 0)
 			(hide yes)
 			(show_name no)
@@ -2590,7 +2606,7 @@
 		(instances
 			(project "board"
 				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/a518d5fa-3e63-4101-a721-9b8ba5303779"
-					(reference "#PWR017")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
