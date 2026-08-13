@@ -1692,7 +1692,7 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U49"
+			(property "Reference" "U55"
 				(at 0 9.525 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2694,7 +2694,7 @@
 	)
 	(global_label "+12V"
 		(shape bidirectional)
-		(at 251.46 53.975 180)
+		(at 248.92 48.895 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2703,7 +2703,7 @@
 		)
 		(uuid "09efbb93-69b6-416e-99e8-7048639df931")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 251.46 53.975 0)
+			(at 248.92 48.895 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2716,7 +2716,7 @@
 	)
 	(global_label "+12V"
 		(shape bidirectional)
-		(at 250.825 63.5 180)
+		(at 248.92 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2725,7 +2725,7 @@
 		)
 		(uuid "10746954-49a5-41c4-b8ce-da8f40e16b06")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.825 63.5 0)
+			(at 248.92 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2848,7 +2848,7 @@
 	)
 	(global_label "+12V"
 		(shape bidirectional)
-		(at 250.19 73.025 180)
+		(at 249.555 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2857,7 +2857,7 @@
 		)
 		(uuid "7dee11ef-ee69-4620-b882-8386e485dcfa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.19 73.025 0)
+			(at 249.555 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2936,7 +2936,7 @@
 	)
 	(global_label "+12V"
 		(shape bidirectional)
-		(at 249.555 81.915 180)
+		(at 248.92 80.645 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2945,7 +2945,7 @@
 		)
 		(uuid "bd19aa56-7396-4aae-87d1-db3c857176b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.555 81.915 0)
+			(at 248.92 80.645 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3224,7 +3224,7 @@
 	)
 	(symbol
 		(lib_id "easyeda_imports:RVT1C102M1010")
-		(at 254 73.025 0)
+		(at 253.365 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3235,7 +3235,7 @@
 		(fields_autoplaced yes)
 		(uuid "3429a6e5-5541-4dfd-b25d-40f847b8fa82")
 		(property "Reference" "C6"
-			(at 253.395 66.04 0)
+			(at 252.76 62.865 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3245,7 +3245,7 @@
 			)
 		)
 		(property "Value" "RVT1C102M1010"
-			(at 253.395 68.58 0)
+			(at 252.76 65.405 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3255,7 +3255,7 @@
 			)
 		)
 		(property "Footprint" "easyeda_imports:CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD"
-			(at 254 80.645 0)
+			(at 253.365 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3266,7 +3266,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Aluminum-Electrolytic-Capacitors-SMD_1000uF-16V-20_C72470.html"
-			(at 254 83.185 0)
+			(at 253.365 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3277,7 +3277,7 @@
 			)
 		)
 		(property "Description" "1000uF 16V ±20%"
-			(at 254 73.025 0)
+			(at 253.365 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3288,7 +3288,7 @@
 			)
 		)
 		(property "Manufacturer" "ROQANG(容强)"
-			(at 254 85.725 0)
+			(at 253.365 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3299,7 +3299,7 @@
 			)
 		)
 		(property "MPN" "RVT1C102M1010"
-			(at 254 88.265 0)
+			(at 253.365 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3310,7 +3310,7 @@
 			)
 		)
 		(property "LCSC Part" "C72470"
-			(at 254 90.805 0)
+			(at 253.365 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3516,7 +3516,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 259.08 53.975 90)
+		(at 256.54 48.895 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3527,7 +3527,7 @@
 		(fields_autoplaced yes)
 		(uuid "48a67440-65b6-4b84-9d2d-1158c105742f")
 		(property "Reference" "#PWR013"
-			(at 265.43 53.975 0)
+			(at 262.89 48.895 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3538,7 +3538,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 262.89 53.975 0)
+			(at 260.35 48.895 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -3548,7 +3548,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 53.975 0)
+			(at 256.54 48.895 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3559,7 +3559,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 53.975 0)
+			(at 256.54 48.895 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3570,7 +3570,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 267.97 53.975 0)
+			(at 265.43 48.895 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3594,7 +3594,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 257.81 73.025 90)
+		(at 257.175 69.85 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3605,7 +3605,7 @@
 		(fields_autoplaced yes)
 		(uuid "50f66bf0-0cb8-424a-8d45-0e0b8964813f")
 		(property "Reference" "#PWR011"
-			(at 264.16 73.025 0)
+			(at 263.525 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3616,7 +3616,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 261.62 73.025 0)
+			(at 260.985 69.85 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -3626,7 +3626,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 73.025 0)
+			(at 257.175 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3637,7 +3637,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 73.025 0)
+			(at 257.175 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3648,7 +3648,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 266.7 73.025 0)
+			(at 266.065 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3672,7 +3672,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 257.175 81.915 90)
+		(at 256.54 80.645 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3683,7 +3683,7 @@
 		(fields_autoplaced yes)
 		(uuid "55113366-8f5e-406a-8339-e7cd88b394fc")
 		(property "Reference" "#PWR010"
-			(at 263.525 81.915 0)
+			(at 262.89 80.645 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3694,7 +3694,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 260.985 81.915 0)
+			(at 260.35 80.645 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -3704,7 +3704,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.175 81.915 0)
+			(at 256.54 80.645 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3715,7 +3715,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.175 81.915 0)
+			(at 256.54 80.645 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3726,7 +3726,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 266.065 81.915 0)
+			(at 265.43 80.645 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3750,7 +3750,7 @@
 	)
 	(symbol
 		(lib_id "easyeda_imports:RVT1C102M1010")
-		(at 254.635 63.5 0)
+		(at 252.73 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3761,7 +3761,7 @@
 		(fields_autoplaced yes)
 		(uuid "80d9c29e-c8b5-4a70-b37c-5b98a25881de")
 		(property "Reference" "C7"
-			(at 254.03 56.515 0)
+			(at 252.125 52.705 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3771,7 +3771,7 @@
 			)
 		)
 		(property "Value" "RVT1C102M1010"
-			(at 254.03 59.055 0)
+			(at 252.125 55.245 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3781,7 +3781,7 @@
 			)
 		)
 		(property "Footprint" "easyeda_imports:CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD"
-			(at 254.635 71.12 0)
+			(at 252.73 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3792,7 +3792,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Aluminum-Electrolytic-Capacitors-SMD_1000uF-16V-20_C72470.html"
-			(at 254.635 73.66 0)
+			(at 252.73 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3803,7 +3803,7 @@
 			)
 		)
 		(property "Description" "1000uF 16V ±20%"
-			(at 254.635 63.5 0)
+			(at 252.73 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3814,7 +3814,7 @@
 			)
 		)
 		(property "Manufacturer" "ROQANG(容强)"
-			(at 254.635 76.2 0)
+			(at 252.73 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3825,7 +3825,7 @@
 			)
 		)
 		(property "MPN" "RVT1C102M1010"
-			(at 254.635 78.74 0)
+			(at 252.73 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3836,7 +3836,7 @@
 			)
 		)
 		(property "LCSC Part" "C72470"
-			(at 254.635 81.28 0)
+			(at 252.73 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4522,7 +4522,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 258.445 63.5 90)
+		(at 256.54 59.69 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4533,7 +4533,7 @@
 		(fields_autoplaced yes)
 		(uuid "b65fbd09-09c4-465a-8bba-d7ea6845c2eb")
 		(property "Reference" "#PWR012"
-			(at 264.795 63.5 0)
+			(at 262.89 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4544,7 +4544,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 262.255 63.5 0)
+			(at 260.35 59.69 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -4554,7 +4554,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 258.445 63.5 0)
+			(at 256.54 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4565,7 +4565,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 258.445 63.5 0)
+			(at 256.54 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4576,7 +4576,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 267.335 63.5 0)
+			(at 265.43 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5161,7 +5161,7 @@
 	)
 	(symbol
 		(lib_id "easyeda_imports:RVT1C102M1010")
-		(at 255.27 53.975 0)
+		(at 252.73 48.895 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5172,7 +5172,7 @@
 		(fields_autoplaced yes)
 		(uuid "dbf46512-e8d7-4156-ba24-793405e22598")
 		(property "Reference" "C8"
-			(at 254.665 46.99 0)
+			(at 252.125 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5182,7 +5182,7 @@
 			)
 		)
 		(property "Value" "RVT1C102M1010"
-			(at 254.665 49.53 0)
+			(at 252.125 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5192,7 +5192,7 @@
 			)
 		)
 		(property "Footprint" "easyeda_imports:CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD"
-			(at 255.27 61.595 0)
+			(at 252.73 56.515 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5203,7 +5203,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Aluminum-Electrolytic-Capacitors-SMD_1000uF-16V-20_C72470.html"
-			(at 255.27 64.135 0)
+			(at 252.73 59.055 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5214,7 +5214,7 @@
 			)
 		)
 		(property "Description" "1000uF 16V ±20%"
-			(at 255.27 53.975 0)
+			(at 252.73 48.895 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5225,7 +5225,7 @@
 			)
 		)
 		(property "Manufacturer" "ROQANG(容强)"
-			(at 255.27 66.675 0)
+			(at 252.73 61.595 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5236,7 +5236,7 @@
 			)
 		)
 		(property "MPN" "RVT1C102M1010"
-			(at 255.27 69.215 0)
+			(at 252.73 64.135 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5247,7 +5247,7 @@
 			)
 		)
 		(property "LCSC Part" "C72470"
-			(at 255.27 71.755 0)
+			(at 252.73 66.675 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5433,7 +5433,7 @@
 	)
 	(symbol
 		(lib_id "easyeda_imports:RVT1C102M1010")
-		(at 253.365 81.915 0)
+		(at 252.73 80.645 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5441,10 +5441,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fa930e2f-d95b-42b3-9611-b6b86c15b095")
 		(property "Reference" "C5"
-			(at 252.76 74.93 0)
+			(at 252.73 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5454,7 +5453,7 @@
 			)
 		)
 		(property "Value" "RVT1C102M1010"
-			(at 252.76 77.47 0)
+			(at 252.125 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5464,7 +5463,7 @@
 			)
 		)
 		(property "Footprint" "easyeda_imports:CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD"
-			(at 253.365 89.535 0)
+			(at 252.73 88.265 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5475,7 +5474,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Aluminum-Electrolytic-Capacitors-SMD_1000uF-16V-20_C72470.html"
-			(at 253.365 92.075 0)
+			(at 252.73 90.805 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5486,7 +5485,7 @@
 			)
 		)
 		(property "Description" "1000uF 16V ±20%"
-			(at 253.365 81.915 0)
+			(at 252.73 80.645 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5497,7 +5496,7 @@
 			)
 		)
 		(property "Manufacturer" "ROQANG(容强)"
-			(at 253.365 94.615 0)
+			(at 252.73 93.345 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5508,7 +5507,7 @@
 			)
 		)
 		(property "MPN" "RVT1C102M1010"
-			(at 253.365 97.155 0)
+			(at 252.73 95.885 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5519,7 +5518,7 @@
 			)
 		)
 		(property "LCSC Part" "C72470"
-			(at 253.365 99.695 0)
+			(at 252.73 98.425 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
