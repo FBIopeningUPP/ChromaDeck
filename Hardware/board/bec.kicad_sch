@@ -949,8 +949,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "L1"
-				(at 1.397 -6.477 90)
+			(property "Reference" "L"
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -959,8 +959,8 @@
 					)
 				)
 			)
-			(property "Value" "WS2812B"
-				(at 1.397 -0.381 90)
+			(property "Value" "IHLP2525CZER2R2M01"
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -969,8 +969,8 @@
 					)
 				)
 			)
-			(property "Footprint" "easyeda_imports:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
-				(at 0 -8.89 0)
+			(property "Footprint" "easyeda_imports:IND-SMD_L6.5-W6.5_IHLP-2525"
+				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -980,8 +980,8 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
-				(at 0 -11.43 0)
+			(property "Datasheet" "https://lcsc.com/product-detail/Inductors-SMD_Vishay-Intertech-IHLP2525CZER2R2M01_C540967.html"
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1002,8 +1002,8 @@
 					)
 				)
 			)
-			(property "Manufacturer" "worldsemi"
-				(at 0 -13.97 0)
+			(property "Manufacturer" "VISHAY(威世)"
+				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1013,8 +1013,8 @@
 					)
 				)
 			)
-			(property "MPN" "WS2812B-2020"
-				(at 0 -16.51 0)
+			(property "MPN" "IHLP2525CZER2R2M01"
+				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1024,8 +1024,8 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C965555"
-				(at 0 -19.05 0)
+			(property "LCSC Part" "C540967"
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1035,7 +1035,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "Light Emitting Diodes (LED)"
+			(property "ki_keywords" "Inductors/Coils/Transformers"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1047,20 +1047,46 @@
 				)
 			)
 			(symbol "IHLP2525CZER2R2M01_0_1"
-				(rectangle
-					(start -6.35 3.81)
-					(end 0 -7.62)
+				(arc
+					(start -4.06 0.01)
+					(mid -3.035 1.0102)
+					(end -2.03 -0.01)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
-				(circle
-					(center -5.08 2.54)
-					(radius 0.38)
+				(arc
+					(start -2.03 0.01)
+					(mid -1.005 1.0102)
+					(end 0 -0.01)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.01)
+					(mid 1.0249 1.0101)
+					(end 2.03 -0.01)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.03 0.01)
+					(mid 3.0549 1.0101)
+					(end 4.06 -0.01)
 					(stroke
 						(width 0)
 						(type default)
@@ -1070,29 +1096,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -8.89 -6.35 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "IHLP2525CZER2R2M01_1_1"
-				(pin unspecified line
-					(at -8.89 -3.81 0)
-					(length 2.54)
-					(name "DOUT"
+					(at -5.08 0 0)
+					(length 1.27)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1108,34 +1114,16 @@
 					)
 				)
 				(pin unspecified line
-					(at -8.89 1.27 0)
-					(length 2.54)
-					(name "DIN"
+					(at 5.08 0 180)
+					(length 1.27)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 -1.27 0)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3595,7 +3583,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Capacitor:C_1206"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 28.2702 104.775 0)
 			(hide yes)
 			(show_name no)
@@ -3675,7 +3663,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Capacitor:C_1206"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 44.7802 104.775 0)
 			(hide yes)
 			(show_name no)
@@ -4027,7 +4015,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Capacitor:C_1206"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 61.2902 104.775 0)
 			(hide yes)
 			(show_name no)
@@ -4784,7 +4772,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Capacitor:C_1206"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 36.5252 104.775 0)
 			(hide yes)
 			(show_name no)
@@ -4907,6 +4895,119 @@
 			(project "board"
 				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/439b5fef-8eb6-4cc2-837e-59cefe4bc8c0"
 					(reference "C78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda_imports:IHLP2525CZER2R2M01")
+		(at 146.685 106.045 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45226d3b-e1a2-44b7-a53b-f533e3c66d1c")
+		(property "Reference" "L43"
+			(at 146.685 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IHLP2525CZER2R2M01"
+			(at 146.685 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda_imports:IND-SMD_L6.5-W6.5_IHLP-2525"
+			(at 146.685 113.665 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Inductors-SMD_Vishay-Intertech-IHLP2525CZER2R2M01_C540967.html"
+			(at 146.685 116.205 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 146.685 106.045 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "VISHAY(威世)"
+			(at 146.685 118.745 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "IHLP2525CZER2R2M01"
+			(at 146.685 121.285 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C540967"
+			(at 146.685 123.825 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f1d2fffa-1b27-4b7a-8f1d-d72351cbebc2")
+		)
+		(pin "1"
+			(uuid "1dbdd1b6-2d29-4995-b2af-9fddc767d134")
+		)
+		(instances
+			(project "board"
+				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/439b5fef-8eb6-4cc2-837e-59cefe4bc8c0"
+					(reference "L43")
 					(unit 1)
 				)
 			)
@@ -5477,125 +5578,6 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda_imports:IHLP2525CZER2R2M01")
-		(at 146.685 106.045 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "87bb5a17-b8b9-4f74-be14-0961a68e4463")
-		(property "Reference" "L43"
-			(at 148.082 112.522 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 148.082 106.426 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda_imports:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
-			(at 146.685 114.935 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
-			(at 146.685 117.475 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 146.685 106.045 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "worldsemi"
-			(at 146.685 120.015 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "WS2812B-2020"
-			(at 146.685 122.555 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C965555"
-			(at 146.685 125.095 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "59cd0863-4362-49cb-885a-6cdec392c101")
-		)
-		(pin "2"
-			(uuid "4c157ca6-4e4e-4614-9d8d-67e5c4a5edca")
-		)
-		(pin "4"
-			(uuid "7109a5f7-ce7b-4817-b166-3725c6c733b2")
-		)
-		(pin "3"
-			(uuid "1286a239-bf95-4c83-b99e-a241e914f100")
-		)
-		(instances
-			(project "board"
-				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/439b5fef-8eb6-4cc2-837e-59cefe4bc8c0"
-					(reference "L43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_Capacitor_US_AKL:C_0805")
 		(at 52.07 108.585 0)
 		(mirror x)
@@ -5627,7 +5609,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Capacitor:C_1206"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 53.0352 104.775 0)
 			(hide yes)
 			(show_name no)
@@ -5946,7 +5928,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Capacitor:C_1206"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 69.5452 104.775 0)
 			(hide yes)
 			(show_name no)
@@ -6182,7 +6164,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Capacitor:C_1206"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 188.2902 106.045 0)
 			(hide yes)
 			(show_name no)
@@ -6340,7 +6322,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Capacitor:C_1206"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 179.4002 106.045 0)
 			(hide yes)
 			(show_name no)
@@ -7621,7 +7603,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Capacitor:C_1206"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 170.5102 106.045 0)
 			(hide yes)
 			(show_name no)
@@ -7939,7 +7921,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Capacitor:C_1206"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 161.6202 106.045 0)
 			(hide yes)
 			(show_name no)

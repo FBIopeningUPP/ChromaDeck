@@ -1385,7 +1385,7 @@
 	)
 	(global_label "SW_3"
 		(shape bidirectional)
-		(at 102.87 169.545 180)
+		(at 97.155 169.545 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1394,7 +1394,7 @@
 		)
 		(uuid "54d08d20-f94d-4b7d-8f27-22dbc98a5599")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.87 169.545 0)
+			(at 97.155 169.545 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1429,7 +1429,7 @@
 	)
 	(global_label "SW_4"
 		(shape bidirectional)
-		(at 102.87 180.975 180)
+		(at 97.155 180.975 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1438,7 +1438,7 @@
 		)
 		(uuid "6f6dc105-981a-41d3-83ad-98c3b3e49473")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.87 180.975 0)
+			(at 97.155 180.975 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1605,7 +1605,7 @@
 	)
 	(global_label "SW_2"
 		(shape bidirectional)
-		(at 81.28 180.975 180)
+		(at 63.5 180.975 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1614,7 +1614,7 @@
 		)
 		(uuid "c895e008-cb3d-4798-adb3-2177f52f3f5f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.28 180.975 0)
+			(at 63.5 180.975 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1669,18 +1669,18 @@
 			)
 		)
 	)
-	(global_label "ENC5_A"
+	(global_label "ENC5_B"
 		(shape bidirectional)
-		(at 227.33 127 180)
+		(at 232.41 127 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "dca2719d-a2ef-4a40-a348-ec54e3a89bf6")
+		(uuid "df017205-18c8-4f71-a410-6dc89ed81157")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.33 127 0)
+			(at 232.41 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1713,6 +1713,28 @@
 			)
 		)
 	)
+	(global_label "ENC5_A"
+		(shape bidirectional)
+		(at 227.33 127 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e349e7f5-f4dd-4a5e-95aa-33035d05bb39")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.33 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
 	(global_label "FADER_1"
 		(shape bidirectional)
 		(at 101.6 41.275 0)
@@ -1725,28 +1747,6 @@
 		(uuid "e3d63b20-13e5-4079-8499-e66726f9a86b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 101.6 41.275 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "ENC5_B"
-		(shape bidirectional)
-		(at 232.41 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f22abb1c-e39a-4cf8-9dcd-a22a6494b266")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.41 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1781,7 +1781,7 @@
 	)
 	(global_label "SW_1"
 		(shape bidirectional)
-		(at 81.28 169.545 180)
+		(at 63.5 169.545 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1790,7 +1790,7 @@
 		)
 		(uuid "f8b9d973-a9eb-4fa3-9806-ebf7cd18574c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.28 169.545 0)
+			(at 63.5 169.545 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1903,7 +1903,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 118.11 180.975 180)
+		(at 112.395 180.975 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1914,7 +1914,7 @@
 		(fields_autoplaced yes)
 		(uuid "144dc7c6-777c-40a1-a317-d089d0dad553")
 		(property "Reference" "#PWR030"
-			(at 118.11 174.625 0)
+			(at 112.395 174.625 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1925,7 +1925,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 177.165 0)
+			(at 112.395 177.165 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -1935,7 +1935,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 180.975 0)
+			(at 112.395 180.975 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1946,7 +1946,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 180.975 0)
+			(at 112.395 180.975 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1957,7 +1957,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 172.085 0)
+			(at 112.395 172.085 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2823,7 +2823,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda_imports:KEY-TH_CPG151101D21X"
+		(property "Footprint" "easyeda_imports:KEY-TH_CPG135001D0X"
 			(at 132.08 188.595 0)
 			(hide yes)
 			(show_name no)
@@ -2984,7 +2984,7 @@
 	)
 	(symbol
 		(lib_id "easyeda_imports:CPG151101D212")
-		(at 110.49 179.705 0)
+		(at 104.775 179.705 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2995,7 +2995,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c6e91b7-411d-49fc-9b87-0cc5d7a498a9")
 		(property "Reference" "M4"
-			(at 110.49 172.72 0)
+			(at 104.775 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3005,7 +3005,7 @@
 			)
 		)
 		(property "Value" "CPG151101D212"
-			(at 110.49 175.26 0)
+			(at 104.775 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3014,8 +3014,8 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda_imports:KEY-TH_CPG151101D21X"
-			(at 110.49 188.595 0)
+		(property "Footprint" "easyeda_imports:KEY-TH_CPG135001D0X"
+			(at 104.775 188.595 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3026,7 +3026,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_Kailh-CPG151101D212_C400234.html"
-			(at 110.49 191.135 0)
+			(at 104.775 191.135 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3037,7 +3037,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 179.705 0)
+			(at 104.775 179.705 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3048,7 +3048,7 @@
 			)
 		)
 		(property "Manufacturer" "Kailh(凯华)"
-			(at 110.49 193.675 0)
+			(at 104.775 193.675 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3059,7 +3059,7 @@
 			)
 		)
 		(property "MPN" "CPG151101D212"
-			(at 110.49 196.215 0)
+			(at 104.775 196.215 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3070,7 +3070,7 @@
 			)
 		)
 		(property "LCSC Part" "C400234"
-			(at 110.49 198.755 0)
+			(at 104.775 198.755 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3381,7 +3381,7 @@
 	)
 	(symbol
 		(lib_id "easyeda_imports:CPG151101D212")
-		(at 88.9 168.275 0)
+		(at 71.12 168.275 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3392,7 +3392,7 @@
 		(fields_autoplaced yes)
 		(uuid "8eeedc74-a883-4ced-be78-ac1b1a912251")
 		(property "Reference" "M1"
-			(at 88.9 161.29 0)
+			(at 71.12 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3402,7 +3402,7 @@
 			)
 		)
 		(property "Value" "CPG151101D212"
-			(at 88.9 163.83 0)
+			(at 71.12 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3411,8 +3411,8 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda_imports:KEY-TH_CPG151101D21X"
-			(at 88.9 177.165 0)
+		(property "Footprint" "easyeda_imports:KEY-TH_CPG135001D0X"
+			(at 71.12 177.165 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3423,7 +3423,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_Kailh-CPG151101D212_C400234.html"
-			(at 88.9 179.705 0)
+			(at 71.12 179.705 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3434,7 +3434,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 168.275 0)
+			(at 71.12 168.275 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3445,7 +3445,7 @@
 			)
 		)
 		(property "Manufacturer" "Kailh(凯华)"
-			(at 88.9 182.245 0)
+			(at 71.12 182.245 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3456,7 +3456,7 @@
 			)
 		)
 		(property "MPN" "CPG151101D212"
-			(at 88.9 184.785 0)
+			(at 71.12 184.785 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3467,7 +3467,7 @@
 			)
 		)
 		(property "LCSC Part" "C400234"
-			(at 88.9 187.325 0)
+			(at 71.12 187.325 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3572,7 +3572,7 @@
 	)
 	(symbol
 		(lib_id "easyeda_imports:CPG151101D212")
-		(at 88.9 179.705 0)
+		(at 71.12 179.705 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3583,7 +3583,7 @@
 		(fields_autoplaced yes)
 		(uuid "9244f146-e2a6-4d79-a0f8-7dfd3853570e")
 		(property "Reference" "M2"
-			(at 88.9 172.72 0)
+			(at 71.12 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3593,7 +3593,7 @@
 			)
 		)
 		(property "Value" "CPG151101D212"
-			(at 88.9 175.26 0)
+			(at 71.12 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3602,8 +3602,8 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda_imports:KEY-TH_CPG151101D21X"
-			(at 88.9 188.595 0)
+		(property "Footprint" "easyeda_imports:KEY-TH_CPG135001D0X"
+			(at 71.12 188.595 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3614,7 +3614,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_Kailh-CPG151101D212_C400234.html"
-			(at 88.9 191.135 0)
+			(at 71.12 191.135 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3625,7 +3625,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 179.705 0)
+			(at 71.12 179.705 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3636,7 +3636,7 @@
 			)
 		)
 		(property "Manufacturer" "Kailh(凯华)"
-			(at 88.9 193.675 0)
+			(at 71.12 193.675 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3647,7 +3647,7 @@
 			)
 		)
 		(property "MPN" "CPG151101D212"
-			(at 88.9 196.215 0)
+			(at 71.12 196.215 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3658,7 +3658,7 @@
 			)
 		)
 		(property "LCSC Part" "C400234"
-			(at 88.9 198.755 0)
+			(at 71.12 198.755 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3793,7 +3793,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda_imports:KEY-TH_CPG151101D21X"
+		(property "Footprint" "easyeda_imports:KEY-TH_CPG135001D0X"
 			(at 156.845 188.595 0)
 			(hide yes)
 			(show_name no)
@@ -3876,7 +3876,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 96.52 180.975 180)
+		(at 78.74 180.975 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3887,7 +3887,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c67857e-70df-45f8-a27c-3bca409e78e2")
 		(property "Reference" "#PWR027"
-			(at 96.52 174.625 0)
+			(at 78.74 174.625 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3898,7 +3898,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.52 177.165 0)
+			(at 78.74 177.165 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -3908,7 +3908,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 180.975 0)
+			(at 78.74 180.975 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3919,7 +3919,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 180.975 0)
+			(at 78.74 180.975 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3930,7 +3930,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 172.085 0)
+			(at 78.74 172.085 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3984,7 +3984,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda_imports:KEY-TH_CPG151101D21X"
+		(property "Footprint" "easyeda_imports:KEY-TH_CPG135001D0X"
 			(at 132.08 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -4213,7 +4213,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda_imports:KEY-TH_CPG151101D21X"
+		(property "Footprint" "easyeda_imports:KEY-TH_CPG135001D0X"
 			(at 156.845 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -4784,7 +4784,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 118.11 169.545 180)
+		(at 112.395 169.545 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4795,7 +4795,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4a9548a-816c-4493-85c6-51f93b7a8de5")
 		(property "Reference" "#PWR029"
-			(at 118.11 163.195 0)
+			(at 112.395 163.195 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4806,7 +4806,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 165.735 0)
+			(at 112.395 165.735 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -4816,7 +4816,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 169.545 0)
+			(at 112.395 169.545 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4827,7 +4827,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 169.545 0)
+			(at 112.395 169.545 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4838,7 +4838,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 160.655 0)
+			(at 112.395 160.655 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4940,7 +4940,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 96.52 169.545 180)
+		(at 78.74 169.545 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4951,7 +4951,7 @@
 		(fields_autoplaced yes)
 		(uuid "d0e10413-7be1-4fcb-8c20-cd216e345bcb")
 		(property "Reference" "#PWR026"
-			(at 96.52 163.195 0)
+			(at 78.74 163.195 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4962,7 +4962,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.52 165.735 0)
+			(at 78.74 165.735 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -4972,7 +4972,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 169.545 0)
+			(at 78.74 169.545 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4983,7 +4983,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 169.545 0)
+			(at 78.74 169.545 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4994,7 +4994,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 160.655 0)
+			(at 78.74 160.655 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5018,7 +5018,7 @@
 	)
 	(symbol
 		(lib_id "easyeda_imports:CPG151101D212")
-		(at 110.49 168.275 0)
+		(at 104.775 168.275 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5029,7 +5029,7 @@
 		(fields_autoplaced yes)
 		(uuid "e54dfdc7-ed06-4de5-9643-571f2edc01fc")
 		(property "Reference" "M3"
-			(at 110.49 161.29 0)
+			(at 104.775 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5039,7 +5039,7 @@
 			)
 		)
 		(property "Value" "CPG151101D212"
-			(at 110.49 163.83 0)
+			(at 104.775 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5048,8 +5048,8 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda_imports:KEY-TH_CPG151101D21X"
-			(at 110.49 177.165 0)
+		(property "Footprint" "easyeda_imports:KEY-TH_CPG135001D0X"
+			(at 104.775 177.165 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5060,7 +5060,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_Kailh-CPG151101D212_C400234.html"
-			(at 110.49 179.705 0)
+			(at 104.775 179.705 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5071,7 +5071,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 168.275 0)
+			(at 104.775 168.275 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5082,7 +5082,7 @@
 			)
 		)
 		(property "Manufacturer" "Kailh(凯华)"
-			(at 110.49 182.245 0)
+			(at 104.775 182.245 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5093,7 +5093,7 @@
 			)
 		)
 		(property "MPN" "CPG151101D212"
-			(at 110.49 184.785 0)
+			(at 104.775 184.785 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5104,7 +5104,7 @@
 			)
 		)
 		(property "LCSC Part" "C400234"
-			(at 110.49 187.325 0)
+			(at 104.775 187.325 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -5144,7 +5144,7 @@
 	)
 	(global_label "FADER_3"
 		(shape bidirectional)
-		(at 111.76 40.64 0)
+		(at 111.125 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5153,7 +5153,7 @@
 		)
 		(uuid "926bb34d-b9b5-4cce-b6ba-f938ca0298c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.76 40.64 0)
+			(at 111.125 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

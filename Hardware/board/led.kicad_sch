@@ -484,12 +484,6 @@
 		(uuid "0bc3e2e4-f7ff-478f-9002-131c6533a8a2")
 	)
 	(junction
-		(at 120.65 161.925)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "11108da8-6abd-4dd9-b590-9002ee2f76b0")
-	)
-	(junction
 		(at 52.705 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -520,22 +514,10 @@
 		(uuid "2d76bd04-91e6-4616-8c81-b01f87bd78d0")
 	)
 	(junction
-		(at 128.27 131.445)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2f625de7-9307-446b-9291-93d2c7519114")
-	)
-	(junction
 		(at 52.705 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "32a03423-5960-4178-8f33-0005ef35de8f")
-	)
-	(junction
-		(at 166.37 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "34550945-6e88-423c-ab29-6c9145b58760")
 	)
 	(junction
 		(at 208.915 97.79)
@@ -544,46 +526,16 @@
 		(uuid "379a6d7e-dd49-41c6-8201-a28095bb1c9f")
 	)
 	(junction
-		(at 91.44 161.925)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3dbe8258-14d5-4fb7-b437-5f891dcae750")
-	)
-	(junction
 		(at 216.535 122.555)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "40d8469b-0a49-458a-9820-7f955129b627")
 	)
 	(junction
-		(at 153.67 76.835)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "475eff0a-19fd-4f32-9cd7-5cc0bcae0724")
-	)
-	(junction
-		(at 127.635 146.685)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47cbaaa0-f1ac-4a05-b504-c955ef144f25")
-	)
-	(junction
-		(at 224.79 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4da0284b-f60b-4d88-a5b3-c1874a16f48d")
-	)
-	(junction
 		(at 223.52 130.175)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e8ee44c-28c7-4ed6-8e98-4860643ccf04")
-	)
-	(junction
-		(at 224.79 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4eef38e9-e060-4b9f-a1ca-aa7bdfa2421c")
 	)
 	(junction
 		(at 46.355 132.715)
@@ -658,28 +610,10 @@
 		(uuid "5b635a23-418d-4b8f-b5fb-2f9006a7f6c7")
 	)
 	(junction
-		(at 83.82 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5bb35da8-9738-4339-b99c-ec9875f79708")
-	)
-	(junction
 		(at 80.645 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e58c4d8-756a-4163-997e-85b8254cbb5f")
-	)
-	(junction
-		(at 167.005 76.835)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "668c321e-5f7f-4a85-b876-90f9191f0f2c")
-	)
-	(junction
-		(at 91.44 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "688b4f81-177b-4c6a-845a-6a7f60ece940")
 	)
 	(junction
 		(at 67.945 58.42)
@@ -706,22 +640,10 @@
 		(uuid "787ca6cb-b1c1-48d5-ae0f-92f1c7828b5c")
 	)
 	(junction
-		(at 128.27 123.825)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "787f5340-9c42-4146-afe5-875740c4f2fc")
-	)
-	(junction
 		(at 80.645 74.295)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ae86a2e-c691-4cd0-a419-4aaf14f3e135")
-	)
-	(junction
-		(at 92.075 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7b25afa2-5317-460c-b5cc-70d4ec647918")
 	)
 	(junction
 		(at 45.72 147.32)
@@ -740,12 +662,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f4344d0-4425-40a3-9c1e-6bfd25632063")
-	)
-	(junction
-		(at 167.005 71.755)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "803d0df7-bf5b-470e-92cf-effe456504db")
 	)
 	(junction
 		(at 80.645 41.275)
@@ -778,12 +694,6 @@
 		(uuid "89af3d5a-3682-49ea-a6e0-fa4244218e69")
 	)
 	(junction
-		(at 128.27 161.925)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8b6fae8a-02c7-4c96-9e8e-a993a4ef862f")
-	)
-	(junction
 		(at 80.645 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -794,12 +704,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d7772ce-171b-43e0-9f6f-bd7e7ee280f8")
-	)
-	(junction
-		(at 83.82 161.925)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8ffbfc54-521c-4c4c-be6b-617d32e7b55a")
 	)
 	(junction
 		(at 80.645 58.42)
@@ -844,18 +748,6 @@
 		(uuid "9e06964e-1452-4cf7-9ecb-e1fe94212136")
 	)
 	(junction
-		(at 91.44 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a2dfbcee-c6c5-482b-8d0f-5e998d02857b")
-	)
-	(junction
-		(at 165.735 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a36ce382-08bf-4d68-aeea-34cb84b1a974")
-	)
-	(junction
 		(at 156.845 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -886,12 +778,6 @@
 		(uuid "b05c9dd6-36b8-4794-ad99-71ba2a34d0fa")
 	)
 	(junction
-		(at 127.635 139.065)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b4681b5b-77d4-40bd-b1fd-04a762739ec8")
-	)
-	(junction
 		(at 170.18 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -904,18 +790,6 @@
 		(uuid "b7e8848c-ce56-43da-b296-a8a6e9d17118")
 	)
 	(junction
-		(at 153.035 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba5e6c3e-96f2-4c4f-a08c-f32ab4802d12")
-	)
-	(junction
-		(at 166.37 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb7fb1da-3f99-4220-9ee2-7acbfba31230")
-	)
-	(junction
 		(at 223.52 122.555)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -926,18 +800,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be8201a5-9038-4b73-9bc2-afadd5a8b64b")
-	)
-	(junction
-		(at 128.27 154.305)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c0a683b2-1c03-4f51-8fbf-2565f661fc03")
-	)
-	(junction
-		(at 224.79 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c3bb9e08-bb15-4c80-98bd-3b6b2fa9beb1")
 	)
 	(junction
 		(at 216.535 130.175)
@@ -988,18 +850,6 @@
 		(uuid "d683cfb3-392e-43b6-b913-81e4d0bbe708")
 	)
 	(junction
-		(at 84.455 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d7aa2434-da78-4306-ad21-6c32216fc473")
-	)
-	(junction
-		(at 91.44 154.305)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d7aaa557-65b5-4cca-a6e2-f86642f72f5a")
-	)
-	(junction
 		(at 209.55 130.175)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1018,12 +868,6 @@
 		(uuid "db905838-0a74-467b-bc47-31d50f67790b")
 	)
 	(junction
-		(at 120.015 146.685)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "df5cc605-87ed-491b-9f7d-94dce8581683")
-	)
-	(junction
 		(at 182.88 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1034,18 +878,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e58305e1-fd75-4777-913b-21ecd728224f")
-	)
-	(junction
-		(at 165.735 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e66396d0-2af5-461c-a9ea-83fd5ead4f99")
-	)
-	(junction
-		(at 120.65 131.445)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6719c70-7b17-4b02-b9a0-7d0af52a07b0")
 	)
 	(junction
 		(at 211.455 57.785)
@@ -1066,50 +898,16 @@
 		(uuid "ee791d74-0f5c-49e3-8418-5b188fb7064a")
 	)
 	(junction
-		(at 92.075 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f74fe374-6141-473c-8599-0551d4a6cb80")
-	)
-	(junction
 		(at 67.945 69.215)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f83171a1-3d8b-4b58-bc21-428fd0382b4f")
 	)
 	(junction
-		(at 224.79 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "faa6854d-a7ec-4775-8e40-428b2a4f32c5")
-	)
-	(junction
-		(at 224.79 57.785)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "faf37b54-3062-4dac-9dc5-86f74137449a")
-	)
-	(junction
-		(at 224.79 52.705)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe148c54-9c10-461a-b591-c87f4b09ad26")
-	)
-	(junction
 		(at 54.61 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ffadc3b0-4742-4b43-9900-6f3a9de01af3")
-	)
-	(wire
-		(pts
-			(xy 128.27 123.825) (xy 135.255 123.825)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "000f41bb-e26e-4dec-b22b-2f199bc3d683")
 	)
 	(wire
 		(pts
@@ -1173,16 +971,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.035 35.56) (xy 166.37 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0777e6f2-e5ab-476f-a6ab-4b8b8b85807b")
-	)
-	(wire
-		(pts
 			(xy 222.25 102.87) (xy 234.95 102.87)
 		)
 		(stroke
@@ -1190,16 +978,6 @@
 			(type default)
 		)
 		(uuid "07d8f2f1-3a0e-42ea-b86c-133db6b89b9f")
-	)
-	(wire
-		(pts
-			(xy 91.44 161.925) (xy 98.425 161.925)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "084c9fb0-7577-4ff2-9e12-89892683ef6d")
 	)
 	(wire
 		(pts
@@ -1343,23 +1121,13 @@
 	)
 	(wire
 		(pts
-			(xy 211.455 52.705) (xy 224.79 52.705)
+			(xy 211.455 52.705) (xy 237.49 52.705)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "18248de6-3747-4229-800d-16a5ed3b87f1")
-	)
-	(wire
-		(pts
-			(xy 153.67 76.835) (xy 167.005 76.835)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18317239-1044-4c73-973d-48fbff4fee6e")
 	)
 	(wire
 		(pts
@@ -1370,16 +1138,6 @@
 			(type default)
 		)
 		(uuid "1838d042-f234-46e6-8042-ac358967419d")
-	)
-	(wire
-		(pts
-			(xy 120.65 161.925) (xy 128.27 161.925)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b67c4ff-a20a-4f90-ba85-b3dedb415974")
 	)
 	(wire
 		(pts
@@ -1410,26 +1168,6 @@
 			(type default)
 		)
 		(uuid "1c978265-03c9-4e5d-b75a-6496032579fb")
-	)
-	(wire
-		(pts
-			(xy 128.27 154.305) (xy 135.255 154.305)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cb0eaa0-2fe1-4482-a04c-516428d4667b")
-	)
-	(wire
-		(pts
-			(xy 91.44 132.08) (xy 98.425 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d7f5630-e8f8-4f47-915d-430a272ea853")
 	)
 	(wire
 		(pts
@@ -1473,16 +1211,6 @@
 	)
 	(wire
 		(pts
-			(xy 84.455 147.32) (xy 92.075 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21f6b792-e9f5-4fcf-8e25-dadb3654adec")
-	)
-	(wire
-		(pts
 			(xy 222.885 55.245) (xy 222.885 50.165)
 		)
 		(stroke
@@ -1490,16 +1218,6 @@
 			(type default)
 		)
 		(uuid "2259a34b-30c9-4a3d-830e-408809d3c981")
-	)
-	(wire
-		(pts
-			(xy 120.015 146.685) (xy 127.635 146.685)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "227d8647-76cb-4e7a-952c-aa40d88987e2")
 	)
 	(wire
 		(pts
@@ -1573,33 +1291,13 @@
 	)
 	(wire
 		(pts
-			(xy 211.455 76.2) (xy 224.79 76.2)
+			(xy 211.455 76.2) (xy 237.49 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2a73c830-0bb1-4788-be11-3b4130ec2cbb")
-	)
-	(wire
-		(pts
-			(xy 127.635 139.065) (xy 134.62 139.065)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bfef874-b85d-4d5a-8a20-78ea0196aaa6")
-	)
-	(wire
-		(pts
-			(xy 120.015 139.065) (xy 127.635 139.065)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e326adf-b19f-4ebd-af9b-016dcbeaee59")
 	)
 	(wire
 		(pts
@@ -1620,16 +1318,6 @@
 			(type default)
 		)
 		(uuid "2fe32d66-b47d-4402-87fe-381d5e8eb7d9")
-	)
-	(wire
-		(pts
-			(xy 167.005 76.835) (xy 179.705 76.835)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31cbab74-9450-44bd-b6a9-df7878484848")
 	)
 	(wire
 		(pts
@@ -1663,26 +1351,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.035 40.64) (xy 166.37 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36fd5bb7-db92-49e7-8e4e-941e05437720")
-	)
-	(wire
-		(pts
-			(xy 127.635 146.685) (xy 134.62 146.685)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38b197f2-0d10-4164-af7f-9b57012892f3")
-	)
-	(wire
-		(pts
 			(xy 38.735 125.095) (xy 46.355 125.095)
 		)
 		(stroke
@@ -1703,7 +1371,7 @@
 	)
 	(wire
 		(pts
-			(xy 211.455 71.12) (xy 224.79 71.12)
+			(xy 211.455 71.12) (xy 237.49 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1723,16 +1391,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 124.46) (xy 98.425 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "424e7743-0470-499f-b42a-009a7e551b0b")
-	)
-	(wire
-		(pts
 			(xy 195.58 102.87) (xy 208.915 102.87)
 		)
 		(stroke
@@ -1740,16 +1398,6 @@
 			(type default)
 		)
 		(uuid "431cde77-9a3f-4ad1-b4da-7ddfe425556e")
-	)
-	(wire
-		(pts
-			(xy 153.67 71.755) (xy 167.005 71.755)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4477ec78-d200-4a60-820b-4b7a145da1cd")
 	)
 	(wire
 		(pts
@@ -1783,16 +1431,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.735 57.15) (xy 177.165 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4afedcd7-85af-45bd-9df1-bda37950b6ea")
-	)
-	(wire
-		(pts
 			(xy 168.275 95.25) (xy 170.18 95.25)
 		)
 		(stroke
@@ -1800,16 +1438,6 @@
 			(type default)
 		)
 		(uuid "4b62cfc4-6e1e-4c6f-8eaa-d7b138e26c06")
-	)
-	(wire
-		(pts
-			(xy 224.79 57.785) (xy 237.49 57.785)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50ecc595-c94f-4064-b328-a261bc29a7bf")
 	)
 	(wire
 		(pts
@@ -1863,16 +1491,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 39.37) (xy 236.22 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5867eb2e-eb70-4d9e-8057-8e7eec425ce5")
-	)
-	(wire
-		(pts
 			(xy 79.375 50.8) (xy 80.645 50.8)
 		)
 		(stroke
@@ -1893,43 +1511,13 @@
 	)
 	(wire
 		(pts
-			(xy 211.455 36.83) (xy 224.79 36.83)
+			(xy 211.455 36.83) (xy 237.49 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5d08190d-8a31-4b0d-b586-1a8f23eef189")
-	)
-	(wire
-		(pts
-			(xy 236.22 68.58) (xy 237.49 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5dfeea3f-120c-4b9f-9b58-dcc62ae2af5b")
-	)
-	(wire
-		(pts
-			(xy 177.8 33.02) (xy 179.07 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e0b6e95-a070-468c-8367-a486e7da0dac")
-	)
-	(wire
-		(pts
-			(xy 92.075 139.7) (xy 99.06 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e5773b6-6162-4f71-9079-f1306b82fd57")
 	)
 	(wire
 		(pts
@@ -1943,36 +1531,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 41.91) (xy 237.49 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f8a702a-1f98-4136-9929-e52d96d5bba9")
-	)
-	(wire
-		(pts
-			(xy 177.165 57.15) (xy 177.165 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "607607bf-a6c5-449f-9e14-b4d449ebb657")
-	)
-	(wire
-		(pts
-			(xy 178.435 69.215) (xy 179.705 69.215)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6183bc73-a5fc-4716-a763-56cf6a4e30d4")
-	)
-	(wire
-		(pts
 			(xy 207.01 100.33) (xy 207.01 95.25)
 		)
 		(stroke
@@ -1980,16 +1538,6 @@
 			(type default)
 		)
 		(uuid "620e9f84-19fe-4f74-8895-d6ec027bb34d")
-	)
-	(wire
-		(pts
-			(xy 91.44 154.305) (xy 98.425 154.305)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6307dbb2-9ac4-4842-a31e-179c72dd3bff")
 	)
 	(wire
 		(pts
@@ -2133,26 +1681,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 55.245) (xy 236.22 50.165)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d73ef1d-14be-4d08-b561-297fe3104a7f")
-	)
-	(wire
-		(pts
-			(xy 83.82 124.46) (xy 91.44 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e8dd0f2-0748-4d28-bb55-c43269679b40")
-	)
-	(wire
-		(pts
 			(xy 181.61 95.25) (xy 182.88 95.25)
 		)
 		(stroke
@@ -2163,7 +1691,7 @@
 	)
 	(wire
 		(pts
-			(xy 211.455 41.91) (xy 224.79 41.91)
+			(xy 211.455 41.91) (xy 237.49 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2193,16 +1721,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.735 59.69) (xy 178.435 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8473339f-8cba-4e5f-a426-54196e58f9f7")
-	)
-	(wire
-		(pts
 			(xy 222.885 39.37) (xy 222.885 34.29)
 		)
 		(stroke
@@ -2213,36 +1731,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 50.165) (xy 237.49 50.165)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85b73d5d-9b90-45d4-8f50-7ef0d633b8eb")
-	)
-	(wire
-		(pts
-			(xy 128.27 161.925) (xy 135.255 161.925)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "888f9730-6e82-42ce-8ff7-fda2df35f9da")
-	)
-	(wire
-		(pts
-			(xy 120.65 131.445) (xy 128.27 131.445)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88c7bc13-9831-4497-a326-8dbb98a1bd93")
-	)
-	(wire
-		(pts
 			(xy 38.1 161.29) (xy 45.72 161.29)
 		)
 		(stroke
@@ -2250,16 +1738,6 @@
 			(type default)
 		)
 		(uuid "88e3d595-239a-44e1-a429-0f07e9e793e3")
-	)
-	(wire
-		(pts
-			(xy 177.8 38.1) (xy 177.8 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89f2f5e9-7ca6-479b-8780-97427d6da6f9")
 	)
 	(wire
 		(pts
@@ -2303,26 +1781,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.005 71.755) (xy 179.705 71.755)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d07d573-3fb2-47e7-bb6f-f65eacaeed33")
-	)
-	(wire
-		(pts
-			(xy 120.65 154.305) (xy 128.27 154.305)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8dd1059a-6fdc-4971-9756-fd00f7007968")
-	)
-	(wire
-		(pts
 			(xy 222.885 68.58) (xy 224.79 68.58)
 		)
 		(stroke
@@ -2353,26 +1811,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 123.825) (xy 128.27 123.825)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "917d2aec-78d3-4c55-bc81-8182826c774c")
-	)
-	(wire
-		(pts
-			(xy 165.735 54.61) (xy 178.435 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9199338b-b8cb-4571-a088-7de820a4b522")
-	)
-	(wire
-		(pts
 			(xy 67.945 85.09) (xy 80.645 85.09)
 		)
 		(stroke
@@ -2390,16 +1828,6 @@
 			(type default)
 		)
 		(uuid "987c72bd-a5cd-4e15-8970-eeb59dd1b36f")
-	)
-	(wire
-		(pts
-			(xy 236.22 34.29) (xy 237.49 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9898d9b0-416e-4843-90bd-0174a01a7809")
 	)
 	(wire
 		(pts
@@ -2520,26 +1948,6 @@
 			(type default)
 		)
 		(uuid "a8a4814b-e961-48d0-b748-b93ea646fa3e")
-	)
-	(wire
-		(pts
-			(xy 177.165 52.07) (xy 178.435 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9535204-d18c-4e65-a923-9388c3218d3e")
-	)
-	(wire
-		(pts
-			(xy 166.37 40.64) (xy 179.07 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a96bc555-5621-4c68-a9d7-e46acf0c66fc")
 	)
 	(wire
 		(pts
@@ -2673,16 +2081,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 36.83) (xy 237.49 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c46714bb-4822-43f5-9f66-a65e653e0896")
-	)
-	(wire
-		(pts
 			(xy 209.55 130.175) (xy 216.535 130.175)
 		)
 		(stroke
@@ -2720,16 +2118,6 @@
 			(type default)
 		)
 		(uuid "c6a208e1-fa63-41ce-983a-cc4f9ec6f6cf")
-	)
-	(wire
-		(pts
-			(xy 84.455 139.7) (xy 92.075 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6aebb65-d6eb-4d76-a28d-36e527ccb479")
 	)
 	(wire
 		(pts
@@ -2823,16 +2211,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.005 74.295) (xy 178.435 74.295)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2305628-c138-48f9-880c-5e4de904b5cf")
-	)
-	(wire
-		(pts
 			(xy 223.52 130.175) (xy 230.505 130.175)
 		)
 		(stroke
@@ -2840,16 +2218,6 @@
 			(type default)
 		)
 		(uuid "d47753cd-f441-4d1b-8f0a-72c3d40d9078")
-	)
-	(wire
-		(pts
-			(xy 166.37 35.56) (xy 179.07 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5fd706c-972b-4cb4-a49a-f65cbd3dd5e0")
 	)
 	(wire
 		(pts
@@ -2870,16 +2238,6 @@
 			(type default)
 		)
 		(uuid "d782d602-544f-4bd5-bb21-0084d8d5d513")
-	)
-	(wire
-		(pts
-			(xy 166.37 38.1) (xy 177.8 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9e6f101-9c8b-4694-9cda-249e6d7bdc53")
 	)
 	(wire
 		(pts
@@ -2913,36 +2271,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 132.08) (xy 91.44 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df041af5-13b5-4242-a670-b21e6cc44f5b")
-	)
-	(wire
-		(pts
-			(xy 224.79 52.705) (xy 237.49 52.705)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df0b959f-8a4c-46f5-af2b-9aef0975f2b4")
-	)
-	(wire
-		(pts
-			(xy 83.82 154.305) (xy 91.44 154.305)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df4646de-3d9c-4a4e-b645-9583f0a45ec2")
-	)
-	(wire
-		(pts
 			(xy 245.745 122.555) (xy 252.73 122.555)
 		)
 		(stroke
@@ -2973,16 +2301,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 73.66) (xy 236.22 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2171f90-c55e-438c-8bea-25369a3f60da")
-	)
-	(wire
-		(pts
 			(xy 53.34 125.095) (xy 60.325 125.095)
 		)
 		(stroke
@@ -3003,7 +2321,7 @@
 	)
 	(wire
 		(pts
-			(xy 211.455 57.785) (xy 224.79 57.785)
+			(xy 211.455 57.785) (xy 237.49 57.785)
 		)
 		(stroke
 			(width 0)
@@ -3020,16 +2338,6 @@
 			(type default)
 		)
 		(uuid "e7725ba7-6f70-448f-b710-981023ced163")
-	)
-	(wire
-		(pts
-			(xy 83.82 161.925) (xy 91.44 161.925)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea7efbee-49f7-4c52-b3ee-496dae76b2ab")
 	)
 	(wire
 		(pts
@@ -3083,16 +2391,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 71.12) (xy 237.49 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efe38e4d-8b82-4b39-8671-709e42e92967")
-	)
-	(wire
-		(pts
 			(xy 79.375 38.735) (xy 79.375 33.655)
 		)
 		(stroke
@@ -3110,16 +2408,6 @@
 			(type default)
 		)
 		(uuid "f41670b5-7fb3-44e2-8a4d-265b8de8b717")
-	)
-	(wire
-		(pts
-			(xy 224.79 76.2) (xy 237.49 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f454591d-b688-4cae-aaf9-f0284c473595")
 	)
 	(wire
 		(pts
@@ -3173,16 +2461,6 @@
 	)
 	(wire
 		(pts
-			(xy 178.435 74.295) (xy 178.435 69.215)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7895d73-420d-4950-a53e-d9e3d5034634")
-	)
-	(wire
-		(pts
 			(xy 216.535 122.555) (xy 223.52 122.555)
 		)
 		(stroke
@@ -3200,16 +2478,6 @@
 			(type default)
 		)
 		(uuid "f7faaf05-c0f1-4ba5-9991-d076db55c2b0")
-	)
-	(wire
-		(pts
-			(xy 92.075 147.32) (xy 99.06 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f97e74e3-c510-42ff-8678-0b2ff6fc8ad5")
 	)
 	(wire
 		(pts
@@ -3260,16 +2528,6 @@
 			(type default)
 		)
 		(uuid "fd1d8379-9895-471c-95f9-e2b0eefdba8f")
-	)
-	(wire
-		(pts
-			(xy 128.27 131.445) (xy 135.255 131.445)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd40244a-a398-4303-88c5-82e620ff4374")
 	)
 	(wire
 		(pts
@@ -4625,87 +3883,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_fab:C_0603")
-		(at 135.255 127.635 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1094d907-fb6d-4efe-83d5-512eef5f7d47")
-		(property "Reference" "C54"
-			(at 135.89 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 135.89 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_fab:C_0603"
-			(at 135.255 127.635 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf"
-			(at 135.255 127.635 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, SMD, 1206"
-			(at 135.255 127.635 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2f115b22-4f3c-4cec-8c49-8f04946730b2")
-		)
-		(pin "1"
-			(uuid "b5568fe2-bbfc-4fda-81d5-2b97ee9e2fd2")
-		)
-		(instances
-			(project "board"
-				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/c5037779-7431-4368-bace-29a827656b82"
-					(reference "C54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
 		(at 120.65 131.445 270)
 		(unit 1)
@@ -4778,125 +3955,6 @@
 			(project "board"
 				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/c5037779-7431-4368-bace-29a827656b82"
 					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda_imports:WS2812B-2020")
-		(at 246.38 35.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14898035-41c1-4914-95fb-c3a7d038fe4b")
-		(property "Reference" "L39"
-			(at 247.777 42.037 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 247.777 35.941 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda_imports:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
-			(at 246.38 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
-			(at 246.38 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 246.38 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "worldsemi"
-			(at 246.38 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "WS2812B-2020"
-			(at 246.38 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C965555"
-			(at 246.38 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3bce5c16-dad6-4665-85ac-83fa7d0ef27f")
-		)
-		(pin "3"
-			(uuid "bb318cab-7011-4ff7-9997-f2514a472e80")
-		)
-		(pin "4"
-			(uuid "f4567ef1-e511-447a-87f8-581237c4dd01")
-		)
-		(pin "1"
-			(uuid "cc3c54ee-9a53-423e-8cf9-95a619e0f755")
-		)
-		(instances
-			(project "board"
-				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/c5037779-7431-4368-bace-29a827656b82"
-					(reference "L39")
 					(unit 1)
 				)
 			)
@@ -5016,125 +4074,6 @@
 			(project "board"
 				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/c5037779-7431-4368-bace-29a827656b82"
 					(reference "L10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda_imports:WS2812B-2020")
-		(at 246.38 51.435 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c84fe39-e35c-4888-b9ad-f9439aca22c3")
-		(property "Reference" "L40"
-			(at 247.777 57.912 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 247.777 51.816 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda_imports:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
-			(at 246.38 60.325 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
-			(at 246.38 62.865 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 246.38 51.435 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "worldsemi"
-			(at 246.38 65.405 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "WS2812B-2020"
-			(at 246.38 67.945 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C965555"
-			(at 246.38 70.485 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "223638da-d4a9-4a7f-966c-f7b7e3084a91")
-		)
-		(pin "3"
-			(uuid "995ff869-c54f-4f16-a451-abbfb290935f")
-		)
-		(pin "4"
-			(uuid "9d9661ef-9afa-4707-831d-bcb095f9fff6")
-		)
-		(pin "1"
-			(uuid "73ca837d-0cba-4c43-93de-050b45fb79a8")
-		)
-		(instances
-			(project "board"
-				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/c5037779-7431-4368-bace-29a827656b82"
-					(reference "L40")
 					(unit 1)
 				)
 			)
@@ -5294,87 +4233,6 @@
 			(project "board"
 				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/c5037779-7431-4368-bace-29a827656b82"
 					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_fab:C_0603")
-		(at 98.425 158.115 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "207bd42b-004b-44cf-b6d8-61f8e560d60f")
-		(property "Reference" "C45"
-			(at 99.06 160.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 99.06 156.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_fab:C_0603"
-			(at 98.425 158.115 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf"
-			(at 98.425 158.115 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, SMD, 1206"
-			(at 98.425 158.115 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "529419f5-efd5-47c6-a011-b769f4da6b82")
-		)
-		(pin "1"
-			(uuid "eaa73d2d-10d6-4be9-9540-1615a6612527")
-		)
-		(instances
-			(project "board"
-				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/c5037779-7431-4368-bace-29a827656b82"
-					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -5659,325 +4517,6 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda_imports:WS2812B-2020")
-		(at 188.595 70.485 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "26b48d9b-b78a-422f-8de7-9ac61b32bf59")
-		(property "Reference" "L27"
-			(at 189.992 76.962 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 189.992 70.866 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda_imports:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
-			(at 188.595 79.375 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
-			(at 188.595 81.915 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 188.595 70.485 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "worldsemi"
-			(at 188.595 84.455 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "WS2812B-2020"
-			(at 188.595 86.995 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C965555"
-			(at 188.595 89.535 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "57149bd0-f9d8-41d7-805d-aab684f1b8bd")
-		)
-		(pin "3"
-			(uuid "3f633b65-b882-495e-8334-cdb338bb8b11")
-		)
-		(pin "4"
-			(uuid "5b25d49f-e478-430f-b380-7279dcc6110b")
-		)
-		(pin "1"
-			(uuid "e379fd3a-fb3f-4200-ba29-85467db30490")
-		)
-		(instances
-			(project "board"
-				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/c5037779-7431-4368-bace-29a827656b82"
-					(reference "L27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_fab:C_0603")
-		(at 135.255 158.115 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2b2efa67-8803-47c2-83fc-814ed343b044")
-		(property "Reference" "C55"
-			(at 135.89 160.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 135.89 156.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_fab:C_0603"
-			(at 135.255 158.115 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf"
-			(at 135.255 158.115 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, SMD, 1206"
-			(at 135.255 158.115 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c42242f6-b18d-43a8-aa5f-85431eb60681")
-		)
-		(pin "1"
-			(uuid "a40cbb06-018c-4145-b691-31143e1ce5b6")
-		)
-		(instances
-			(project "board"
-				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/c5037779-7431-4368-bace-29a827656b82"
-					(reference "C55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda_imports:WS2812B-2020")
-		(at 175.895 70.485 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c93ac12-8bf9-4720-b585-516b1b149840")
-		(property "Reference" "L23"
-			(at 177.292 76.962 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 177.292 70.866 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda_imports:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
-			(at 175.895 79.375 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
-			(at 175.895 81.915 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 175.895 70.485 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "worldsemi"
-			(at 175.895 84.455 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "WS2812B-2020"
-			(at 175.895 86.995 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C965555"
-			(at 175.895 89.535 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8e5ace69-5b9f-433d-a4b8-54fd1e385e89")
-		)
-		(pin "3"
-			(uuid "8eb187b0-20df-4539-a7a6-a00a96e6ddf1")
-		)
-		(pin "4"
-			(uuid "e3e6308b-03b8-4a14-bea2-2538f8270a37")
-		)
-		(pin "1"
-			(uuid "6c44b212-b40d-4f47-bff3-0bab4727fc93")
-		)
-		(instances
-			(project "board"
-				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/c5037779-7431-4368-bace-29a827656b82"
-					(reference "L23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
 		(at 156.845 102.87 270)
 		(unit 1)
@@ -6254,87 +4793,6 @@
 	)
 	(symbol
 		(lib_id "PCM_fab:C_0603")
-		(at 127.635 142.875 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "34ea3a21-dccc-4bbc-a904-2aeb7138c83e")
-		(property "Reference" "C50"
-			(at 128.27 144.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 128.27 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_fab:C_0603"
-			(at 127.635 142.875 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf"
-			(at 127.635 142.875 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, SMD, 1206"
-			(at 127.635 142.875 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2ad6d25c-3540-45b4-ac2d-e1ed307db3fd")
-		)
-		(pin "1"
-			(uuid "b8756516-0e91-4fd9-aa9a-d520a351bab7")
-		)
-		(instances
-			(project "board"
-				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/c5037779-7431-4368-bace-29a827656b82"
-					(reference "C50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_fab:C_0603")
 		(at 83.82 128.27 0)
 		(unit 1)
 		(body_style 1)
@@ -6357,6 +4815,7 @@
 		)
 		(property "Value" "100nF"
 			(at 84.455 126.365 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6658,125 +5117,6 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda_imports:WS2812B-2020")
-		(at 233.68 35.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "39aee3fe-a2a6-4faa-85bd-bc1dd2c344cb")
-		(property "Reference" "L35"
-			(at 235.077 42.037 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 235.077 35.941 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda_imports:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
-			(at 233.68 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
-			(at 233.68 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 233.68 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "worldsemi"
-			(at 233.68 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "WS2812B-2020"
-			(at 233.68 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C965555"
-			(at 233.68 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b451c8a2-fdf9-456c-8d45-8a7be0379301")
-		)
-		(pin "3"
-			(uuid "e9806723-ba4b-45cd-9385-c230c4fb3716")
-		)
-		(pin "4"
-			(uuid "893f11f3-ae71-4983-a127-9274f0526252")
-		)
-		(pin "1"
-			(uuid "4641abc5-89a2-4686-8ecf-3b9a0cc9773e")
-		)
-		(instances
-			(project "board"
-				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/c5037779-7431-4368-bace-29a827656b82"
-					(reference "L35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_fab:C_0603")
 		(at 230.505 126.365 0)
 		(unit 1)
@@ -6936,125 +5276,6 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda_imports:WS2812B-2020")
-		(at 174.625 53.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3feb8a4e-3902-4d74-a72d-16864f38e347")
-		(property "Reference" "L21"
-			(at 176.022 59.817 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 176.022 53.721 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda_imports:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
-			(at 174.625 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
-			(at 174.625 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 174.625 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "worldsemi"
-			(at 174.625 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "WS2812B-2020"
-			(at 174.625 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C965555"
-			(at 174.625 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ebc0d9d0-51ac-414e-bb9b-0114ba4d3569")
-		)
-		(pin "3"
-			(uuid "03962317-62aa-46f0-8a68-3dc4b4992cf9")
-		)
-		(pin "4"
-			(uuid "6843af60-3a79-4693-8bf5-c1db069b0fb6")
-		)
-		(pin "1"
-			(uuid "9ce2061f-6143-4aa2-8d66-7014fff8e052")
-		)
-		(instances
-			(project "board"
-				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/c5037779-7431-4368-bace-29a827656b82"
-					(reference "L21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_fab:C_0603")
 		(at 84.455 143.51 0)
 		(unit 1)
@@ -7078,6 +5299,7 @@
 		)
 		(property "Value" "100nF"
 			(at 85.09 141.605 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7278,6 +5500,7 @@
 		)
 		(property "Value" "100nF"
 			(at 121.285 125.73 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7808,125 +6031,6 @@
 			(project "board"
 				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/c5037779-7431-4368-bace-29a827656b82"
 					(reference "C31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda_imports:WS2812B-2020")
-		(at 233.68 51.435 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ae799d5-4d6f-4fa3-9518-8bf457fb836d")
-		(property "Reference" "L36"
-			(at 235.077 57.912 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 235.077 51.816 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda_imports:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
-			(at 233.68 60.325 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
-			(at 233.68 62.865 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 233.68 51.435 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "worldsemi"
-			(at 233.68 65.405 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "WS2812B-2020"
-			(at 233.68 67.945 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C965555"
-			(at 233.68 70.485 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d5f7b946-2038-40cf-b9c0-d47ea7ff8b57")
-		)
-		(pin "3"
-			(uuid "7fc71d92-0022-46f9-be4a-93e4e9c95b20")
-		)
-		(pin "4"
-			(uuid "f258e90e-b288-4924-a238-9284b0bffaf4")
-		)
-		(pin "1"
-			(uuid "54777657-a7a0-4966-89e1-39d5252f5901")
-		)
-		(instances
-			(project "board"
-				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/c5037779-7431-4368-bace-29a827656b82"
-					(reference "L36")
 					(unit 1)
 				)
 			)
@@ -8929,87 +7033,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_fab:C_0603")
-		(at 91.44 128.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7c4cad46-99f7-48f4-8dcb-816eee38544c")
-		(property "Reference" "C41"
-			(at 92.075 130.175 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 92.075 126.365 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_fab:C_0603"
-			(at 91.44 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf"
-			(at 91.44 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, SMD, 1206"
-			(at 91.44 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ccb7d47f-4c71-4403-98eb-6ea303425212")
-		)
-		(pin "1"
-			(uuid "73805924-a85d-4724-bad1-e3b5d008b4fe")
-		)
-		(instances
-			(project "board"
-				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/c5037779-7431-4368-bace-29a827656b82"
-					(reference "C41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
 		(at 202.565 130.175 270)
 		(unit 1)
@@ -9230,6 +7253,7 @@
 		)
 		(property "Value" "100nF"
 			(at 84.455 156.21 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9282,125 +7306,6 @@
 			(project "board"
 				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/c5037779-7431-4368-bace-29a827656b82"
 					(reference "C39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda_imports:WS2812B-2020")
-		(at 187.96 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8473110e-7dc8-4e91-8d3d-1fd3522ae39e")
-		(property "Reference" "L26"
-			(at 189.357 40.767 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 189.357 34.671 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda_imports:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
-			(at 187.96 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
-			(at 187.96 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 187.96 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "worldsemi"
-			(at 187.96 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "WS2812B-2020"
-			(at 187.96 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C965555"
-			(at 187.96 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "337d9282-79a4-436b-99cf-d98db179280c")
-		)
-		(pin "3"
-			(uuid "ba4a9c02-ed9f-4355-9996-698c2c62d7d8")
-		)
-		(pin "4"
-			(uuid "5b042b85-4b84-446e-8f58-fdf2a81f4e6a")
-		)
-		(pin "1"
-			(uuid "6e664353-e458-455d-9fcc-a2109893998a")
-		)
-		(instances
-			(project "board"
-				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/c5037779-7431-4368-bace-29a827656b82"
-					(reference "L26")
 					(unit 1)
 				)
 			)
@@ -10515,125 +8420,6 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda_imports:WS2812B-2020")
-		(at 233.68 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a12568b8-368f-4731-9b29-f670fbe318b4")
-		(property "Reference" "L37"
-			(at 235.077 76.327 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 235.077 70.231 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda_imports:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
-			(at 233.68 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
-			(at 233.68 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 233.68 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "worldsemi"
-			(at 233.68 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "WS2812B-2020"
-			(at 233.68 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C965555"
-			(at 233.68 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f8e7f870-267c-44de-b94e-6c85b4cce0ed")
-		)
-		(pin "3"
-			(uuid "7b8e116d-24eb-4760-abed-df6ac11bfa33")
-		)
-		(pin "4"
-			(uuid "6abc775c-4374-4b02-9073-558c6775a703")
-		)
-		(pin "1"
-			(uuid "cbddcdaf-c175-42e0-8cfc-6e73500aa7c3")
-		)
-		(instances
-			(project "board"
-				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/c5037779-7431-4368-bace-29a827656b82"
-					(reference "L37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_fab:C_0603")
 		(at 52.705 143.51 0)
 		(unit 1)
@@ -11257,6 +9043,7 @@
 		)
 		(property "Value" "100nF"
 			(at 120.65 140.97 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11547,206 +9334,6 @@
 			(project "board"
 				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/c5037779-7431-4368-bace-29a827656b82"
 					(reference "L9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda_imports:WS2812B-2020")
-		(at 246.38 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb6db2a1-7fcf-4700-881d-aed21fde439a")
-		(property "Reference" "L41"
-			(at 247.777 76.327 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 247.777 70.231 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda_imports:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
-			(at 246.38 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
-			(at 246.38 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 246.38 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "worldsemi"
-			(at 246.38 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "WS2812B-2020"
-			(at 246.38 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C965555"
-			(at 246.38 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e3f079b8-1fe7-4b32-adc0-075a272f2a5b")
-		)
-		(pin "3"
-			(uuid "246414d1-0ddc-4045-9367-2e49b1a2cfdd")
-		)
-		(pin "4"
-			(uuid "6fcf56cf-ec0e-4545-b531-8ee45c82167a")
-		)
-		(pin "1"
-			(uuid "b972943e-8561-420f-bb0e-670c75999c3a")
-		)
-		(instances
-			(project "board"
-				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/c5037779-7431-4368-bace-29a827656b82"
-					(reference "L41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_fab:C_0603")
-		(at 91.44 158.115 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bf273db0-059b-4beb-afaf-0e3bd6bb5189")
-		(property "Reference" "C42"
-			(at 92.075 160.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 92.075 156.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_fab:C_0603"
-			(at 91.44 158.115 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf"
-			(at 91.44 158.115 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, SMD, 1206"
-			(at 91.44 158.115 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f1cb3a4d-453f-437f-a9d0-65675518a2ae")
-		)
-		(pin "1"
-			(uuid "6b56357d-57fa-4f2b-95be-31db6e47fe60")
-		)
-		(instances
-			(project "board"
-				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/c5037779-7431-4368-bace-29a827656b82"
-					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -12151,87 +9738,6 @@
 	)
 	(symbol
 		(lib_id "PCM_fab:C_0603")
-		(at 128.27 127.635 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cd4e220b-15b7-4565-a069-a9173ae22fcb")
-		(property "Reference" "C51"
-			(at 128.905 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 128.905 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_fab:C_0603"
-			(at 128.27 127.635 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf"
-			(at 128.27 127.635 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, SMD, 1206"
-			(at 128.27 127.635 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ef046ff9-d159-4e5a-bf5e-9f21794383b9")
-		)
-		(pin "1"
-			(uuid "d0551ffb-4446-44ae-b464-50554b30333a")
-		)
-		(instances
-			(project "board"
-				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/c5037779-7431-4368-bace-29a827656b82"
-					(reference "C51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_fab:C_0603")
 		(at 238.125 126.365 0)
 		(unit 1)
 		(body_style 1)
@@ -12393,87 +9899,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_fab:C_0603")
-		(at 98.425 128.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d72ba994-1b3d-4922-b38c-f493f114e31f")
-		(property "Reference" "C44"
-			(at 99.06 130.175 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 99.06 126.365 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_fab:C_0603"
-			(at 98.425 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf"
-			(at 98.425 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, SMD, 1206"
-			(at 98.425 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "27e2bbb7-0c2f-4af1-b35d-1021116488d6")
-		)
-		(pin "1"
-			(uuid "f6dfc6f0-1f38-49bb-9d12-8c5e7ae67fc4")
-		)
-		(instances
-			(project "board"
-				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/c5037779-7431-4368-bace-29a827656b82"
-					(reference "C44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
 		(at 38.735 132.715 270)
 		(unit 1)
@@ -12546,287 +9971,6 @@
 			(project "board"
 				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/c5037779-7431-4368-bace-29a827656b82"
 					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda_imports:WS2812B-2020")
-		(at 175.26 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dac86b6c-2cbe-4290-91b2-0396285f8219")
-		(property "Reference" "L22"
-			(at 176.657 40.767 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 176.657 34.671 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda_imports:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
-			(at 175.26 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
-			(at 175.26 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 175.26 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "worldsemi"
-			(at 175.26 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "WS2812B-2020"
-			(at 175.26 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C965555"
-			(at 175.26 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8c474571-354c-46d7-aceb-b135717c26c0")
-		)
-		(pin "3"
-			(uuid "59fd57e9-90c8-4370-b4e8-0ba8fcf3b7d0")
-		)
-		(pin "4"
-			(uuid "93625922-cbc4-40a9-9ec1-a4ed64139ece")
-		)
-		(pin "1"
-			(uuid "ee4ef4ac-628f-4e47-a461-fb2e19b5a681")
-		)
-		(instances
-			(project "board"
-				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/c5037779-7431-4368-bace-29a827656b82"
-					(reference "L22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_fab:C_0603")
-		(at 99.06 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "db610158-a0e2-4a77-b771-a111fee74536")
-		(property "Reference" "C46"
-			(at 99.695 145.415 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 99.695 141.605 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_fab:C_0603"
-			(at 99.06 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf"
-			(at 99.06 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, SMD, 1206"
-			(at 99.06 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4afcce5f-ebd4-4e64-8be6-324e9e6aa0f1")
-		)
-		(pin "1"
-			(uuid "58191105-9ce0-440c-9179-90e07734770b")
-		)
-		(instances
-			(project "board"
-				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/c5037779-7431-4368-bace-29a827656b82"
-					(reference "C46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_fab:C_0603")
-		(at 128.27 158.115 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dcff2187-f2c0-4467-b7d1-5a1291491734")
-		(property "Reference" "C52"
-			(at 128.905 160.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 128.905 156.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_fab:C_0603"
-			(at 128.27 158.115 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf"
-			(at 128.27 158.115 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, SMD, 1206"
-			(at 128.27 158.115 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "bd13a522-31a6-45f8-bce1-d5bc16223442")
-		)
-		(pin "1"
-			(uuid "58ea360e-79e1-46dc-b26a-e1e320fff686")
-		)
-		(instances
-			(project "board"
-				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/c5037779-7431-4368-bace-29a827656b82"
-					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -12908,87 +10052,6 @@
 			(project "board"
 				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/c5037779-7431-4368-bace-29a827656b82"
 					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_fab:C_0603")
-		(at 134.62 142.875 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e06e479f-8136-4849-ac34-a550e6cd79ed")
-		(property "Reference" "C53"
-			(at 135.255 144.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 135.255 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_fab:C_0603"
-			(at 134.62 142.875 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf"
-			(at 134.62 142.875 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, SMD, 1206"
-			(at 134.62 142.875 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "53ac09e6-b2ae-453d-9028-f82c60629ffc")
-		)
-		(pin "1"
-			(uuid "9dfa0ab7-4d82-4c22-8e58-881b1e11eaea")
-		)
-		(instances
-			(project "board"
-				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/c5037779-7431-4368-bace-29a827656b82"
-					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -13177,6 +10240,7 @@
 		)
 		(property "Value" "100nF"
 			(at 121.285 156.21 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13229,87 +10293,6 @@
 			(project "board"
 				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/c5037779-7431-4368-bace-29a827656b82"
 					(reference "C49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_fab:C_0603")
-		(at 92.075 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f14fd94d-3c53-434c-ae52-17811a7e0a18")
-		(property "Reference" "C43"
-			(at 92.71 145.415 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 92.71 141.605 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_fab:C_0603"
-			(at 92.075 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf"
-			(at 92.075 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, SMD, 1206"
-			(at 92.075 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6f217489-b7b7-4317-adf5-3f9ebe2c0e28")
-		)
-		(pin "1"
-			(uuid "832dbaa4-32f1-4fe7-998f-4f43be9d9bf9")
-		)
-		(instances
-			(project "board"
-				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/c5037779-7431-4368-bace-29a827656b82"
-					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -13863,125 +10846,6 @@
 			(project "board"
 				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/c5037779-7431-4368-bace-29a827656b82"
 					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda_imports:WS2812B-2020")
-		(at 187.325 53.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa14757a-2d5d-4dd0-83f9-9d5864f1107f")
-		(property "Reference" "L25"
-			(at 188.722 59.817 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 188.722 53.721 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda_imports:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
-			(at 187.325 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
-			(at 187.325 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 187.325 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "worldsemi"
-			(at 187.325 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "WS2812B-2020"
-			(at 187.325 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C965555"
-			(at 187.325 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8ea2e3bf-c173-488a-8ca0-87f8eec4597b")
-		)
-		(pin "3"
-			(uuid "752a9007-33ad-4a0d-bbe3-8a3e6c890373")
-		)
-		(pin "4"
-			(uuid "c110c8b4-dc22-4fc4-8977-06cdde820762")
-		)
-		(pin "1"
-			(uuid "f51f92bf-68ce-4a4e-ac54-158afc966e8b")
-		)
-		(instances
-			(project "board"
-				(path "/a701f4fd-d5c8-4ab0-b464-3edf07ec58ed/c5037779-7431-4368-bace-29a827656b82"
-					(reference "L25")
 					(unit 1)
 				)
 			)

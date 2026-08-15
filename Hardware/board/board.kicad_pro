@@ -64,7 +64,7 @@
           "min_island_area": 10.0,
           "min_thickness": 0.1,
           "pad_connection": 2,
-          "remove_islands": 0,
+          "remove_islands": 1,
           "thermal_relief_gap": 0.1,
           "thermal_relief_spoke_width": 0.1
         }
@@ -151,17 +151,17 @@
         "min_copper_edge_clearance": 0.1,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.125,
-        "min_hole_to_hole": 0.25,
+        "min_hole_to_hole": 0.125,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.1,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_annular_width": 0.05,
+        "min_via_diameter": 0.3,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -537,8 +537,8 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.3,
+        "via_drill": 0.2,
         "wire_width": 6
       }
     ],
@@ -677,7 +677,7 @@
         "uuid": "a701f4fd-d5c8-4ab0-b464-3edf07ec58ed"
       }
     ],
-    "used_designators": "R1-17,J1-2,D1-2,#PWR1-81,U1-53,C1-93,X1,SW1-16,L1-43,CN1,EN1-6,LED1,F1-4,M1-8",
+    "used_designators": "R1-17,J1-2,D1-2,#PWR1-81,U1-53,C1-93,X1,SW1-16,L1-43,CN1,EN1-6,LED1,F1-4,M1-8,H1-12",
     "variants": []
   },
   "sheets": [
